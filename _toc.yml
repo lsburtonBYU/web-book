@@ -1,0 +1,12 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "Part I - Getting started"
+    chapters:
+      - file: chapters/getting-started/getting-started
+        sections:
+          - file: chapters/getting-started/software
+          - file: chapters/getting-started/configure
+          - file: chapters/getting-started/github
+          - file: chapters/getting-started/git-basics
+          - file: chapters/getting-started/image-editing
