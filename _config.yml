@@ -5,6 +5,7 @@ title: Introduction to Web Development
 author: Lara Burton
 copyright: "2023"
 logo: images/logo.png
+only_build_toc_files: true
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -29,6 +30,6 @@ repository:
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   favicon: images/favicon.ico
-  baseurl: https://lsburtonbyu.github.io/web-book/intro.html
+  baseurl: https://lsburtonbyu.github.io/web-book/
   use_issues_button: true
   use_repository_button: true
