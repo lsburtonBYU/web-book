@@ -1,7 +1,10 @@
 format: jb-book
 root: index
+options:
+  numbered: true
 parts:
   - caption: "Part I - Getting started"
+    numbered: true
     chapters:
       - file: chapters/getting-started/index
         sections:
