@@ -18,3 +18,9 @@ parts:
           - file: chapters/internet/videos
           - file: chapters/internet/charts
           - file: chapters/internet/learn-more
+      - file: chapters/style-guide/index
+        sections:
+          - file: chapters/style-guide/sample
+          - file: chapters/style-guide/color
+          - file: chapters/style-guide/accessability
+          - file: chapters/style-guide/useful-links
