@@ -177,7 +177,18 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 has-children"><a class="reference internal" href="../style-guide/index.html">3. Style guides</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
 <li class="toctree-l2"><a class="reference internal" href="../style-guide/sample.html">3.1. Sample style guides &amp; font pairing</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../style-guide/color.html">3.2. Color on the web</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../style-guide/useful-links.html">3.3. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/accessibility.html">3.3. Designing for accessibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/useful-links.html">3.4. Useful links</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Part II - HTML</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../html-basics/index.html">4. HTML basics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../semantic-html/index.html">5. Semantic HTML</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accessibility/index.html">6. Accessibility basics</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../links-images/index.html">7. Links and basic images</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../links-images/resources.html">7.2. Resources for images</a></li>
 </ul>
 </li>
 </ul>
@@ -409,15 +420,15 @@ document.write(`
 <h2><span class="section-number">1.4.2. </span>Git vs. Github<a class="headerlink" href="#git-vs-github" title="Permalink to this heading">#</a></h2>
 <section id="git">
 <h3><span class="section-number">1.4.2.1. </span>Git<a class="headerlink" href="#git" title="Permalink to this heading">#</a></h3>
-<a class="reference internal image-reference" href="../../_images/git-logo.png" id="id1"><img alt="../../_images/git-logo.png" id="id1" src="../../_images/git-logo.png" style="height: 100px;" /></a>
+<a class="reference internal image-reference" href="../../_images/git-logo.png"><img alt="Git" src="../../_images/git-logo.png" style="height: 100px;" /></a>
 <p>Git is a free, open-source distributed Version Control System (VCS). A VCS is a useful tool for tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if needed. It also makes working with others easier – groups of people can work together on the same project and merge their changes into one final source.</p>
 <p>VS Code has built-in support for Git. VS Code’s Activity Bar (a vertical menu, by default on the left) contains a source control icon where you can run the Git commands you need for this course:</p>
-<a class="reference internal image-reference" href="../../_images/source-control.png" id="vs-code-source-control-icon"><img alt="../../_images/source-control.png" class="align-center" id="vs-code-source-control-icon" src="../../_images/source-control.png" style="height: 70px;" /></a>
+<a class="reference internal image-reference" href="../../_images/source-control.png"><img alt="VS Code source control icon" class="align-center" src="../../_images/source-control.png" style="height: 70px;" /></a>
 <p>If you have experience with command line, you can also run Git commands in the VS Code terminal. To learn more about Git, check out the <a class="reference external" href="https://git-scm.com/doc">Git documentation</a>. The <strong>Pro Git</strong> book included in the Git documentation is a great resource for learning more about Git.</p>
 </section>
 <section id="github">
 <h3><span class="section-number">1.4.2.2. </span>GitHub<a class="headerlink" href="#github" title="Permalink to this heading">#</a></h3>
-<a class="reference internal image-reference" href="../../_images/github-logo.png" id="id2"><img alt="../../_images/github-logo.png" id="id2" src="../../_images/github-logo.png" style="height: 100px;" /></a>
+<a class="reference internal image-reference" href="../../_images/github-logo.png" id="id1"><img alt="../../_images/github-logo.png" id="id1" src="../../_images/github-logo.png" style="height: 100px;" /></a>
 <p>While Git is an open-source project, GitHub is owned by Microsoft. GitHub hosts Git repos online. It’s extremely popular and used across the software world.</p>
 <p>GitHub does more than host repos. It has many more advanced features that you can use to collaborate with others, manage your projects, and build software. We are using GitHub in this course because it hosts free static websites using GitHub Pages.</p>
 </section>

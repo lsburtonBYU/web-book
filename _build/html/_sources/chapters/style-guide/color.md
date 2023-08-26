@@ -1,5 +1,10 @@
 # Color on the web
 
+```{image} /images/if_rainbow.png
+:alt: color icon
+:width: 100px
+```
+
 Browse a few of the following sites to find a color palette that you like:
 
 - [FlatUI Colors](https://flatuicolors.com/) - simple collection of colors

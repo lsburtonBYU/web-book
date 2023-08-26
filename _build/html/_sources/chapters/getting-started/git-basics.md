@@ -4,7 +4,6 @@
 
 Watch the video below, **Using Git with Visual Studio Code**.
 
-
 ```{topic} Watch
 <iframe width="560" height="315" src="https://www.youtube.com/embed/i_23KUAEtUM?si=0ulwr7GGOD_rMg5n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ```
@@ -19,7 +18,7 @@ If you are new to programming, the video may seem overwhelming. Don't worry, we 
 
 ```{image} /images/git-logo.png
 :height: 100px
-:name: Git
+:alt: Git
 ```
 
 Git is a free, open-source distributed Version Control System (VCS). A VCS is a useful tool for tracking changes to your code, collaborating, and sharing. With Git you can track the changes you make to your project so you always have a record of what you’ve worked on and can easily revert back to an older version if needed. It also makes working with others easier – groups of people can work together on the same project and merge their changes into one final source.
@@ -29,7 +28,7 @@ VS Code has built-in support for Git. VS Code's Activity Bar (a vertical menu, b
 ```{image} /images/source-control.png
 :height: 70px
 :align: center
-:name: VS Code source control icon
+:alt: VS Code source control icon
 ```
 
 If you have experience with command line, you can also run Git commands in the VS Code terminal. To learn more about Git, check out the [Git documentation](https://git-scm.com/doc). The **Pro Git** book included in the Git documentation is a great resource for learning more about Git.
