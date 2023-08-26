@@ -6,30 +6,30 @@ parts:
   - caption: "Part I - Getting started"
     numbered: true
     chapters:
-      - file: chapters/getting-started/index
+      - file: parts/getting-started/chapters/getting-started/index
         sections:
-          - file: chapters/getting-started/software
-          - file: chapters/getting-started/configure
-          - file: chapters/getting-started/github
-          - file: chapters/getting-started/git-basics
-          - file: chapters/getting-started/image-editing
-      - file: chapters/internet/index
+          - file: parts/getting-started/chapters/getting-started/software
+          - file: parts/getting-started/chapters/getting-started/configure
+          - file: parts/getting-started/chapters/getting-started/github
+          - file: parts/getting-started/chapters/getting-started/git-basics
+          - file: parts/getting-started/chapters/getting-started/image-editing
+      - file: parts/getting-started/chapters/internet/index
         sections:
-          - file: chapters/internet/videos
-          - file: chapters/internet/charts
-          - file: chapters/internet/learn-more
-      - file: chapters/style-guide/index
+          - file: parts/getting-started/chapters/internet/videos
+          - file: parts/getting-started/chapters/internet/charts
+          - file: parts/getting-started/chapters/internet/learn-more
+      - file: parts/getting-started/chapters/style-guide/index
         sections:
-          - file: chapters/style-guide/sample
-          - file: chapters/style-guide/color
-          - file: chapters/style-guide/accessibility
-          - file: chapters/style-guide/useful-links
+          - file: parts/getting-started/chapters/style-guide/sample
+          - file: parts/getting-started/chapters/style-guide/color
+          - file: parts/getting-started/chapters/style-guide/accessibility
+          - file: parts/getting-started/chapters/style-guide/useful-links
   - caption: "Part II - HTML"
     numbered: true
     chapters:
-      - file: chapters/html-basics/index
-      - file: chapters/semantic-html/index
-      - file: chapters/accessibility/index
-      - file: chapters/links-images/index
+      - file: parts/html/chapters/html-basics/index
+      - file: parts/html/chapters/semantic-html/index
+      - file: parts/html/chapters/accessibility/index
+      - file: parts/html/chapters/links-images/index
         sections:
-          - file: chapters/links-images/resources
+          - file: parts/html/chapters/links-images/resources
