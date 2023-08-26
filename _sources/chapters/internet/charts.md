@@ -2,7 +2,7 @@
 
 ## Browser Market Share United States Of America
 
-Jan 2009 - Jul 2022<
+Jan 2009 - Jul 2022
 
 <p><iframe class="flourish-embed-iframe" frameborder="0" sandbox="allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation" scrolling="no" src="https://flo.uri.sh/visualisation/10564283/embed" style="width:100%;height:600px;" title="Interactive or visual content"></iframe></p>
 
