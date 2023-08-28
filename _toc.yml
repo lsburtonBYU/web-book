@@ -4,7 +4,7 @@ options:
   numbered: true
 parts:
   - caption: "Part I - Getting started"
-    numbered: 2
+    numbered: true
     chapters:
       - file: parts/setup/getting-started/index
         sections:
@@ -26,7 +26,7 @@ parts:
           - file: parts/setup/style-guide/accessibility
           - file: parts/setup/style-guide/useful-links
   - caption: "Part II - HTML"
-    numbered: 2
+    numbered: true
     chapters:
       - file: parts/html/html-basics/index
       - file: parts/html/semantic-html/index
@@ -36,10 +36,18 @@ parts:
           - file: parts/html/links-images/resources
       - file: parts/html/responsive-images-svg/index
   - caption: "Part III - CSS basics"
-    numbered: 2
+    numbered: true
     chapters:
       - file: parts/css-basics/index
         sections:
           - file: parts/css-basics/specificity
           - file: parts/css-basics/styling-links
           - file: parts/css-basics/positioning
+  - caption: "Part IV - Animation"
+    numbered: true
+    chapters:
+      - file: parts/animation/index
+  - caption: "Part V - CSS layouts"
+    numbered: true
+    chapters:
+      - file: parts/css-layouts/index

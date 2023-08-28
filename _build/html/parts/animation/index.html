@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>9.5. CSS positioning &#8212; Introduction to Web Development</title>
+    <title>10. Animation &#8212; Introduction to Web Development</title>
   
   
   
@@ -61,13 +61,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'parts/css-basics/positioning';</script>
-    <link rel="canonical" href="https://lsburtonbyu.github.io/web-book/parts/css-basics/positioning.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'parts/animation/index';</script>
+    <link rel="canonical" href="https://lsburtonbyu.github.io/web-book/parts/animation/index.html" />
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="10. Animation" href="../animation/index.html" />
-    <link rel="prev" title="9.4. Styling links" href="styling-links.html" />
+    <link rel="next" title="11. CSS layouts" href="../css-layouts/index.html" />
+    <link rel="prev" title="9.5. CSS positioning" href="../css-basics/positioning.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -195,17 +195,17 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="../html/responsive-images-svg/index.html">8. Responsive images and SVG</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part III - CSS basics</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">9. CSS basics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="specificity.html">9.3. CSS specificity</a></li>
-<li class="toctree-l2"><a class="reference internal" href="styling-links.html">9.4. Styling links</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">9.5. CSS positioning</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../css-basics/index.html">9. CSS basics</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../css-basics/specificity.html">9.3. CSS specificity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../css-basics/styling-links.html">9.4. Styling links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../css-basics/positioning.html">9.5. CSS positioning</a></li>
 </ul>
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part IV - Animation</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../animation/index.html">10. Animation</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">10. Animation</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part V - CSS layouts</span></p>
 <ul class="nav bd-sidenav">
@@ -281,7 +281,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/lsburtonBYU/web-book/issues/new?title=Issue%20on%20page%20%2Fparts/css-basics/positioning.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/lsburtonBYU/web-book/issues/new?title=Issue%20on%20page%20%2Fparts/animation/index.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -311,7 +311,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../../_sources/parts/css-basics/positioning.md" target="_blank"
+      <li><a href="../../_sources/parts/animation/index.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -391,7 +391,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>CSS positioning</h1>
+    <h1>Animation</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -405,22 +405,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="css-positioning">
-<h1><span class="section-number">9.5. </span>CSS positioning<a class="headerlink" href="#css-positioning" title="Permalink to this heading">#</a></h1>
-<p>Sample cards from previous semesters (fork for reference if you are interested in any):</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/YzLRzMo?editors=0100">Student-submitted cards Fall 2022</a></p></li>
-<li><p><a class="reference external" href="https://learningsuite.byu.edu/.se50/cid-4T8VpwzpU9qV/pages/id-fqI7">Student submitted cards Winter 2022</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/Jjyjmbp">Old spice card</a> ¯\_(ツ)_/¯</p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/dyXoJPZ">cake card</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/eYeywZr">chaco cards</a> - text appear on hover</p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/NWwvNPj">color change on hover using filters</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/VwrRMVB">better animated flip cards</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/povjaWp">clip-path but kinda ugly design</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/MWveXLL">fancy animated cards</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/BaZXqrp?editors=1010">another fancy animated card</a></p></li>
-<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/VwmMKML">yet another fancy animated card</a> - Sweetwater</p></li>
-</ul>
+  <section id="animation">
+<h1><span class="section-number">10. </span>Animation<a class="headerlink" href="#animation" title="Permalink to this heading">#</a></h1>
 </section>
 
     <script type="text/x-thebe-config">
@@ -436,7 +422,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./parts\css-basics"
+            path: "./parts\animation"
         },
         predefinedOutput: true
     }
@@ -455,20 +441,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="styling-links.html"
+       href="../css-basics/positioning.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">9.4. </span>Styling links</p>
+        <p class="prev-next-title"><span class="section-number">9.5. </span>CSS positioning</p>
       </div>
     </a>
     <a class="right-next"
-       href="../animation/index.html"
+       href="../css-layouts/index.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">10. </span>Animation</p>
+        <p class="prev-next-title"><span class="section-number">11. </span>CSS layouts</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
