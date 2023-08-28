@@ -6,30 +6,40 @@ parts:
   - caption: "Part I - Getting started"
     numbered: true
     chapters:
-      - file: parts/getting-started/chapters/getting-started/index
+      - file: parts/setup/getting-started/index
         sections:
-          - file: parts/getting-started/chapters/getting-started/software
-          - file: parts/getting-started/chapters/getting-started/configure
-          - file: parts/getting-started/chapters/getting-started/github
-          - file: parts/getting-started/chapters/getting-started/git-basics
-          - file: parts/getting-started/chapters/getting-started/image-editing
-      - file: parts/getting-started/chapters/internet/index
+          - file: parts/setup/getting-started/software
+          - file: parts/setup/getting-started/configure
+          - file: parts/setup/getting-started/codepen
+          - file: parts/setup/getting-started/github
+          - file: parts/setup/getting-started/git-basics
+          - file: parts/setup/getting-started/image-editing
+      - file: parts/setup/internet/index
         sections:
-          - file: parts/getting-started/chapters/internet/videos
-          - file: parts/getting-started/chapters/internet/charts
-          - file: parts/getting-started/chapters/internet/learn-more
-      - file: parts/getting-started/chapters/style-guide/index
+          - file: parts/setup/internet/videos
+          - file: parts/setup/internet/charts
+          - file: parts/setup/internet/learn-more
+      - file: parts/setup/style-guide/index
         sections:
-          - file: parts/getting-started/chapters/style-guide/sample
-          - file: parts/getting-started/chapters/style-guide/color
-          - file: parts/getting-started/chapters/style-guide/accessibility
-          - file: parts/getting-started/chapters/style-guide/useful-links
+          - file: parts/setup/style-guide/sample
+          - file: parts/setup/style-guide/color
+          - file: parts/setup/style-guide/accessibility
+          - file: parts/setup/style-guide/useful-links
   - caption: "Part II - HTML"
     numbered: true
     chapters:
-      - file: parts/html/chapters/html-basics/index
-      - file: parts/html/chapters/semantic-html/index
-      - file: parts/html/chapters/accessibility/index
-      - file: parts/html/chapters/links-images/index
+      - file: parts/html/html-basics/index
+      - file: parts/html/semantic-html/index
+      - file: parts/html/accessibility/index
+      - file: parts/html/links-images/index
         sections:
-          - file: parts/html/chapters/links-images/resources
+          - file: parts/html/links-images/resources
+      - file: parts/html/responsive-images-svg/index
+  - caption: "Part III - CSS basics"
+    numbered: true
+    chapters:
+      - file: parts/css-basics/index
+        sections:
+          - file: parts/css-basics/specificity
+          - file: parts/css-basics/styling-links
+          - file: parts/css-basics/positioning
