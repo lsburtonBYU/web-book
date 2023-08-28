@@ -1,14 +1,9 @@
-# Book settings
-# Learn more at https://jupyterbook.org/customize/config.html
-
 title: Introduction to Web Development
 author: Lara Burton
 copyright: "2023"
 logo: images/logo.png
 only_build_toc_files: true
 
-# Force re-execution of notebooks on each build.
-# See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: auto
 
@@ -16,6 +11,7 @@ parse:
   myst_enable_extensions:
     - deflist
     - html_admonition
+    - smartquotes
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -26,8 +22,6 @@ repository:
   path_to_book: main
   branch: gh-pages
 
-# Add GitHub buttons to your book
-# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
   favicon: images/favicon.ico
   baseurl: https://lsburtonbyu.github.io/web-book/
