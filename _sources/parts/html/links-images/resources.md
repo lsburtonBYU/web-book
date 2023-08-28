@@ -1,49 +1,39 @@
 # Resources for images
 
-<p>Using HTML to <a href="https://www.w3schools.com/tags/att_img_loading.asp" target="_blank">lazy-load images</a></p>
+Using HTML to [lazy-load images](https://www.w3schools.com/tags/att_img_loading.asp)
 
-<p><strong>Extra more in-depth info on adding height and width attributes to \<img\>, lazy loading, and using the new aspect-ratio:</strong></p>
+Extra more in-depth info on adding height and width attributes to \<img\>, lazy loading, and using the new aspect-ratio property:
 
-<ul>
-  <li>Smashing Magazine's <a href="https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/" target="_blank">Setting Height and Width on Images is Important Again</a></li>
-</ul>
+- Smashing Magazine's [Setting Height and Width on Images is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/)
 
-<p><strong>Free stock photos</strong></p>
+## Free stock photos
 
-<ul>
-  <li><a href="https://unsplash.com/"target="_blank">Unsplash</a> - my go-to source</li>
-  <li><a href="https://www.pexels.com/"target="_blank">Pexels</a> - has collections which help when you have a theme; also has free videos</li>
-  <li><a href="https://pixabay.com/"target="_blank">Pixabay</a> - easy to find transparent PNGS</li>
-  <li><a href="https://css-tricks.com/unconventional-stock-image-sources/"target="_blank">Unconventional Stock Image Sources</a></li>
-</ul>
+- [Unsplash](https://unsplash.com/) - my go-to source
+- [Pexels](https://www.pexels.com/) - has collections which help when you have a theme; also has free videos
+- [Pixabay](https://pixabay.com/) - easy to find transparent PNGS
+- [Unconventional Stock Image Sources](https://css-tricks.com/unconventional-stock-image-sources/)
 
-<p><strong>Image editing</strong></p>
+## Image editing
 
-<ul>
-  <li><a href="https://www.befunky.com/features/resize-image/"target="_blank">Be Funky</a><span> </span>- simple online image resizing. It won't allow you to adjust compression and optimize images, but the resizing ability is fine for this class.</li>
-  <li><a href="https://compressor.io/"target="_blank">Compressor.io</a><span> </span>- online image compressor</li>
-  <li><a href="http://www.photoscape.org/ps/main/download.php"target="_blank">Photoscape</a><span> </span>- (Windows) an older program that I still use. I don't like Photoscape X, so avoid that version, unless you are a Mac user and want to try it out.</li>
-  <li><a href="https://www.gimp.org/"target="_blank">Gimp<span> </span></a>- (free) open source alternative to Adobe Photoshop</li>
-  <li><a href="https://www.remove.bg/"target="_blank">remove.bg</a><span> </span>- remove image background - because cool</li>
-</ul>
+- [Be Funky](https://www.befunky.com/features/resize-image/) \- simple online image resizing. It won't allow you to adjust compression and optimize images, but the resizing ability is fine for this class.
+- [Compressor.io](https://compressor.io/) \- online image compressor
+- [Photoscape](http://www.photoscape.org/ps/main/download.php) \- (Windows) an older program that I still use. I don't like Photoscape X, so avoid that version, unless you are a Mac user and want to try it out.
+- [Gimp](https://www.gimp.org/) \- (free) open source alternative to Adobe Photoshop
+- [remove.bg](https://www.remove.bg/) \- remove image background - because cool
 
-<p id="SVG"><strong>SVG</strong></p>
+## SVG
 
-<ul>
-  <li><a href="https://svgontheweb.com/"target="_blank">A Practical Guide to SVGs on the Web</a><span> </span>- good introductory guide to SVGs</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"target="_blank">SVG Tutorial | MDN Web Docs</a> - lots of code samples</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/tag/SVG%20Filter"target="_blank">List of SVG filters</a><span> </span>from MDN Web Docs</li>
-  <li><a href="https://alistapart.com/article/finessing-fecolormatrix"target="_blank">Finessing `feColorMatrix`</a><span> </span>- a good resource for understanding how to create color filters</li>
-  <li><a href="https://jakearchibald.github.io/svgomg/"target="_blank">SVGOMG<span> </span></a>- SVGO's Missing GUI. An online version of<span> </span><a href="https://github.com/svg/svgo"target="_blank">SVGO</a><span> </span>, tool for optimizing SVGs, particularly those created by graphics programs such as Adobe Illustrator </li>
-  <li><a href="https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/"target="_blank">How to code SVG icons by hand</a> - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial</li>
-</ul>
+- [A Practical Guide to SVGs on the Web](https://svgontheweb.com/) \- good introductory guide to SVGs
+- [SVG Tutorial | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial) - lots of code samples
+- [List of SVG filters](https://developer.mozilla.org/en-US/docs/tag/SVG%20Filter) from MDN Web Docs
+- [Finessing \`feColorMatrix\`](https://alistapart.com/article/finessing-fecolormatrix) \- a good resource for understanding how to create color filters
+- [SVGOMG](https://jakearchibald.github.io/svgomg/) \- SVGO's Missing GUI. An online version of [SVGO](https://github.com/svg/svgo) , tool for optimizing SVGs, particularly those created by graphics programs such as Adobe Illustrator
+- [How to code SVG icons by hand](https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/) - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial
 
-<p><strong>Free SVG images / illustrations</strong></p>
+## Free SVG images / illustrations
 
-<ul>
-  <li><a href="https://www.iconfinder.com/"target="_blank">Iconfinder</a></li>
-  <li><a href="https://undraw.co/"target="_blank">unDraw</a></li>
-  <li><a href="https://lukaszadam.com/illustrations"target="_blank">Lucasz Adam's Free Illustrations</a></li>
-  <li><a href="https://publicdomainvectors.org/en/"target="_blank">Public Domain Vectors</a></li>
-  <li><a href="https://www.flaticon.com/"target="_blank">Flaticon</a></li>
-</ul>
+- [Iconfinder](https://www.iconfinder.com/)
+- [unDraw](https://undraw.co/)
+- [Lucasz Adam's Free Illustrations](https://lukaszadam.com/illustrations)
+- [Public Domain Vectors](https://publicdomainvectors.org/en/)
+- [Flaticon](https://www.flaticon.com/)

@@ -203,6 +203,14 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 </ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Part IV - Animation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../animation/index.html">10. Animation</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Part V - CSS layouts</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../css-layouts/index.html">11. CSS layouts</a></li>
+</ul>
 
     </div>
 </nav></div>
@@ -372,7 +380,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -388,6 +398,17 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#free-stock-photos">7.2.1. Free stock photos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#image-editing">7.2.2. Image editing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#svg">7.2.3. SVG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#free-svg-images-illustrations">7.2.4. Free SVG images / illustrations</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -399,43 +420,51 @@ document.write(`
                   
   <section id="resources-for-images">
 <h1><span class="section-number">7.2. </span>Resources for images<a class="headerlink" href="#resources-for-images" title="Permalink to this heading">#</a></h1>
-<p>Using HTML to <a href="https://www.w3schools.com/tags/att_img_loading.asp" target="_blank">lazy-load images</a></p>
-<p><strong>Extra more in-depth info on adding height and width attributes to \<img\>, lazy loading, and using the new aspect-ratio:</strong></p>
-<ul>
-  <li>Smashing Magazine's <a href="https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/" target="_blank">Setting Height and Width on Images is Important Again</a></li>
+<p>Using HTML to <a class="reference external" href="https://www.w3schools.com/tags/att_img_loading.asp">lazy-load images</a></p>
+<p>Extra more in-depth info on adding height and width attributes to &lt;img&gt;, lazy loading, and using the new aspect-ratio property:</p>
+<ul class="simple">
+<li><p>Smashing Magazine’s <a class="reference external" href="https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/">Setting Height and Width on Images is Important Again</a></p></li>
 </ul>
-<p><strong>Free stock photos</strong></p>
-<ul>
-  <li><a href="https://unsplash.com/"target="_blank">Unsplash</a> - my go-to source</li>
-  <li><a href="https://www.pexels.com/"target="_blank">Pexels</a> - has collections which help when you have a theme; also has free videos</li>
-  <li><a href="https://pixabay.com/"target="_blank">Pixabay</a> - easy to find transparent PNGS</li>
-  <li><a href="https://css-tricks.com/unconventional-stock-image-sources/"target="_blank">Unconventional Stock Image Sources</a></li>
+<section id="free-stock-photos">
+<h2><span class="section-number">7.2.1. </span>Free stock photos<a class="headerlink" href="#free-stock-photos" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://unsplash.com/">Unsplash</a> - my go-to source</p></li>
+<li><p><a class="reference external" href="https://www.pexels.com/">Pexels</a> - has collections which help when you have a theme; also has free videos</p></li>
+<li><p><a class="reference external" href="https://pixabay.com/">Pixabay</a> - easy to find transparent PNGS</p></li>
+<li><p><a class="reference external" href="https://css-tricks.com/unconventional-stock-image-sources/">Unconventional Stock Image Sources</a></p></li>
 </ul>
-<p><strong>Image editing</strong></p>
-<ul>
-  <li><a href="https://www.befunky.com/features/resize-image/"target="_blank">Be Funky</a><span> </span>- simple online image resizing. It won't allow you to adjust compression and optimize images, but the resizing ability is fine for this class.</li>
-  <li><a href="https://compressor.io/"target="_blank">Compressor.io</a><span> </span>- online image compressor</li>
-  <li><a href="http://www.photoscape.org/ps/main/download.php"target="_blank">Photoscape</a><span> </span>- (Windows) an older program that I still use. I don't like Photoscape X, so avoid that version, unless you are a Mac user and want to try it out.</li>
-  <li><a href="https://www.gimp.org/"target="_blank">Gimp<span> </span></a>- (free) open source alternative to Adobe Photoshop</li>
-  <li><a href="https://www.remove.bg/"target="_blank">remove.bg</a><span> </span>- remove image background - because cool</li>
+</section>
+<section id="image-editing">
+<h2><span class="section-number">7.2.2. </span>Image editing<a class="headerlink" href="#image-editing" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.befunky.com/features/resize-image/">Be Funky</a> - simple online image resizing. It won’t allow you to adjust compression and optimize images, but the resizing ability is fine for this class.</p></li>
+<li><p><a class="reference external" href="https://compressor.io/">Compressor.io</a> - online image compressor</p></li>
+<li><p><a class="reference external" href="http://www.photoscape.org/ps/main/download.php">Photoscape</a> - (Windows) an older program that I still use. I don’t like Photoscape X, so avoid that version, unless you are a Mac user and want to try it out.</p></li>
+<li><p><a class="reference external" href="https://www.gimp.org/">Gimp</a> - (free) open source alternative to Adobe Photoshop</p></li>
+<li><p><a class="reference external" href="https://www.remove.bg/">remove.bg</a> - remove image background - because cool</p></li>
 </ul>
-<p id="SVG"><strong>SVG</strong></p>
-<ul>
-  <li><a href="https://svgontheweb.com/"target="_blank">A Practical Guide to SVGs on the Web</a><span> </span>- good introductory guide to SVGs</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"target="_blank">SVG Tutorial | MDN Web Docs</a> - lots of code samples</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/tag/SVG%20Filter"target="_blank">List of SVG filters</a><span> </span>from MDN Web Docs</li>
-  <li><a href="https://alistapart.com/article/finessing-fecolormatrix"target="_blank">Finessing `feColorMatrix`</a><span> </span>- a good resource for understanding how to create color filters</li>
-  <li><a href="https://jakearchibald.github.io/svgomg/"target="_blank">SVGOMG<span> </span></a>- SVGO's Missing GUI. An online version of<span> </span><a href="https://github.com/svg/svgo"target="_blank">SVGO</a><span> </span>, tool for optimizing SVGs, particularly those created by graphics programs such as Adobe Illustrator </li>
-  <li><a href="https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/"target="_blank">How to code SVG icons by hand</a> - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial</li>
+</section>
+<section id="svg">
+<h2><span class="section-number">7.2.3. </span>SVG<a class="headerlink" href="#svg" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://svgontheweb.com/">A Practical Guide to SVGs on the Web</a> - good introductory guide to SVGs</p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial">SVG Tutorial | MDN Web Docs</a> - lots of code samples</p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/tag/SVG%20Filter">List of SVG filters</a> from MDN Web Docs</p></li>
+<li><p><a class="reference external" href="https://alistapart.com/article/finessing-fecolormatrix">Finessing `feColorMatrix`</a> - a good resource for understanding how to create color filters</p></li>
+<li><p><a class="reference external" href="https://jakearchibald.github.io/svgomg/">SVGOMG</a> - SVGO’s Missing GUI. An online version of <a class="reference external" href="https://github.com/svg/svgo">SVGO</a> , tool for optimizing SVGs, particularly those created by graphics programs such as Adobe Illustrator</p></li>
+<li><p><a class="reference external" href="https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/">How to code SVG icons by hand</a> - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial</p></li>
 </ul>
-<p><strong>Free SVG images / illustrations</strong></p>
-<ul>
-  <li><a href="https://www.iconfinder.com/"target="_blank">Iconfinder</a></li>
-  <li><a href="https://undraw.co/"target="_blank">unDraw</a></li>
-  <li><a href="https://lukaszadam.com/illustrations"target="_blank">Lucasz Adam's Free Illustrations</a></li>
-  <li><a href="https://publicdomainvectors.org/en/"target="_blank">Public Domain Vectors</a></li>
-  <li><a href="https://www.flaticon.com/"target="_blank">Flaticon</a></li>
+</section>
+<section id="free-svg-images-illustrations">
+<h2><span class="section-number">7.2.4. </span>Free SVG images / illustrations<a class="headerlink" href="#free-svg-images-illustrations" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.iconfinder.com/">Iconfinder</a></p></li>
+<li><p><a class="reference external" href="https://undraw.co/">unDraw</a></p></li>
+<li><p><a class="reference external" href="https://lukaszadam.com/illustrations">Lucasz Adam’s Free Illustrations</a></p></li>
+<li><p><a class="reference external" href="https://publicdomainvectors.org/en/">Public Domain Vectors</a></p></li>
+<li><p><a class="reference external" href="https://www.flaticon.com/">Flaticon</a></p></li>
 </ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -496,6 +525,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#free-stock-photos">7.2.1. Free stock photos</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#image-editing">7.2.2. Image editing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#svg">7.2.3. SVG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#free-svg-images-illustrations">7.2.4. Free SVG images / illustrations</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
