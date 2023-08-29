@@ -26,9 +26,14 @@ parts:
           - file: parts/setup/style-guide/accessibility
           - file: parts/setup/style-guide/useful-links
   - caption: "Part II - HTML"
-    numbered: true
+    numbered: 3
     chapters:
       - file: parts/html/html-basics/index
+        sections:
+          - file: parts/html/html-basics/html-template
+          - file: parts/html/html-basics/html-head
+          - file: parts/html/html-basics/validate
+          - file: parts/html/html-basics/style-guide
       - file: parts/html/semantic-html/index
       - file: parts/html/accessibility/index
       - file: parts/html/links-images/index
@@ -51,3 +56,7 @@ parts:
     numbered: true
     chapters:
       - file: parts/css-layouts/index
+  - caption: Appendix
+    numbered: 1
+    chapters:
+      - file: parts/appendix/useful-links
