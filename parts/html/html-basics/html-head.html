@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="4.7. Validating HTML" href="validate.html" />
+    <link rel="next" title="4.6. Validating HTML" href="validate.html" />
     <link rel="prev" title="4.4. HTML template" href="html-template.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -188,9 +188,8 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">4. HTML basics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="html-template.html">4.4. HTML template</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">4.5. Configuring HTML &lt;head&gt;</a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="validate.html">4.7. Validating HTML</a></li>
-<li class="toctree-l2"><a class="reference internal" href="style-guide.html">4.8. HTML Style Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="validate.html">4.6. Validating HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html">4.7. HTML Style Guide</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../semantic-html/index.html">5. Semantic HTML</a></li>
@@ -221,6 +220,8 @@ const thebe_selector_output = ".output, .cell_output"
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Appendix</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../appendix/useful-links.html">12. Useful links</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../appendix/glossary.html">13. Glossary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../genindex.html">14. Index</a></li>
 </ul>
 
     </div>
@@ -414,20 +415,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">4.5. Configuring HTML &lt;head&gt;</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essential-head-elements">4.5.1. Essential &lt;head&gt; elements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#favicon">4.5.2. Favicon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facebook-open-graph">4.5.3. Facebook Open Graph</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#twitter-cards">4.5.4. Twitter cards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css">4.5.5. CSS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-for-android">4.5.6. Extra for Android</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-you-to-modify">4.5.7. A template for you to modify</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#favicon">4.6. Favicon</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facebook-open-graph">4.6.1. Facebook Open Graph</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#twitter-cards">4.6.2. Twitter cards</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css">4.6.3. CSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-for-android">4.6.4. Extra for Android</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-you-to-modify">4.6.5. A template for you to modify</a></li>
-</ul>
-</li>
-</ul>
-
             </nav>
         </div>
     </div>
@@ -483,9 +478,8 @@ document.write(`
 </pre></div>
 </div>
 </section>
-</section>
 <section id="favicon">
-<h1><span class="section-number">4.6. </span>Favicon<a class="headerlink" href="#favicon" title="Permalink to this heading">#</a></h1>
+<h2><span class="section-number">4.5.2. </span>Favicon<a class="headerlink" href="#favicon" title="Permalink to this heading">#</a></h2>
 <p>By default, a browser will look for a favicon.ico file in the website root directory (usually <code class="docutils literal notranslate"><span class="pre">public_html</span></code>). An <code class="docutils literal notranslate"><span class="pre">.ico</span></code> file usually contains 3 or 4 different sizes of the same image. Browsers are moving to using PNG and larger size icons for apps and tiles. At a minimum, include a <code class="docutils literal notranslate"><span class="pre">favicon.ico</span></code> in your root directory. Below is a small sample of icons you can add. The snippet below (and icons) were generated by <a class="reference external" href="https://favicon.io/">The Ultimate Favicon Generator</a>.</p>
 <img alt="apple touch favicon" src="../../../_images/apple-touch-icon.png" />
 <img alt="32 pixel favicon" src="../../../_images/favicon-32x32.png" />
@@ -502,8 +496,9 @@ document.write(`
 <li><p><a class="reference external" href="https://github.com/audreyr/favicon-cheat-sheet">favicon-cheat-sheet</a></p></li>
 <li><p><a class="reference external" href="http://www.xiconeditor.com/">x-icon editor</a> – basic create your own icon, or upload an image and modify it</p></li>
 </ul>
+</section>
 <section id="facebook-open-graph">
-<h2><span class="section-number">4.6.1. </span>Facebook Open Graph<a class="headerlink" href="#facebook-open-graph" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.5.3. </span>Facebook Open Graph<a class="headerlink" href="#facebook-open-graph" title="Permalink to this heading">#</a></h2>
 <p>Facebook open graph meta elements control how your content appears when shared on Facebook. The meta elements contain two attributes: property and content.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cm">&lt;!-- Facebook open graph control how your content appears when shared</span>
 <span class="cm">    on Facebook --&gt;</span>
@@ -534,7 +529,7 @@ document.write(`
 <img alt="facebook og information" src="../../../_images/correct-og.png" />
 </section>
 <section id="twitter-cards">
-<h2><span class="section-number">4.6.2. </span>Twitter cards<a class="headerlink" href="#twitter-cards" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.5.4. </span>Twitter cards<a class="headerlink" href="#twitter-cards" title="Permalink to this heading">#</a></h2>
 <p>Twitter cards are similar to Facebook open graph meta elements, but the meta elements use content instead of property. If a twitter card property is missing, it can inherit some of the og properties.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cm">&lt;!-- twitter card</span>
 <span class="cm">    Similar to open graph, but twitter uses the name attribute instead of the</span>
@@ -556,7 +551,7 @@ document.write(`
 <img alt="twitter og information" src="../../../_images/twitter-card.png" />
 </section>
 <section id="css">
-<h2><span class="section-number">4.6.3. </span>CSS<a class="headerlink" href="#css" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.5.5. </span>CSS<a class="headerlink" href="#css" title="Permalink to this heading">#</a></h2>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cm">&lt;!-- CSS Reset</span>
 <span class="cm">    since individual browsers apply their own styles to HTML, it&#39;s best to use</span>
 <span class="cm">    a CSS Reset to help ensure that your web page looks the same in most</span>
@@ -577,7 +572,7 @@ document.write(`
 </div>
 </section>
 <section id="extra-for-android">
-<h2><span class="section-number">4.6.4. </span>Extra for Android<a class="headerlink" href="#extra-for-android" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.5.6. </span>Extra for Android<a class="headerlink" href="#extra-for-android" title="Permalink to this heading">#</a></h2>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cm">&lt;!-- optional tag which can change the browser&#39;s title bar color or browser</span>
 <span class="cm">    highlights. Last I checked, it only works on Android :( --&gt;</span>
       <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;theme-color&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;#1e3799&quot;</span><span class="p">&gt;</span>
@@ -585,7 +580,7 @@ document.write(`
 </div>
 </section>
 <section id="a-template-for-you-to-modify">
-<h2><span class="section-number">4.6.5. </span>A template for you to modify<a class="headerlink" href="#a-template-for-you-to-modify" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.5.7. </span>A template for you to modify<a class="headerlink" href="#a-template-for-you-to-modify" title="Permalink to this heading">#</a></h2>
 <p>Copy the markup below and paste it into a new <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file in VS Code. Before you begin, you need</p>
 <ul class="simple">
 <li><p>A site topic and description</p></li>
@@ -703,7 +698,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">4.7. </span>Validating HTML</p>
+        <p class="prev-next-title"><span class="section-number">4.6. </span>Validating HTML</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -725,20 +720,14 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">4.5. Configuring HTML &lt;head&gt;</a><ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#essential-head-elements">4.5.1. Essential &lt;head&gt; elements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#favicon">4.5.2. Favicon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facebook-open-graph">4.5.3. Facebook Open Graph</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#twitter-cards">4.5.4. Twitter cards</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css">4.5.5. CSS</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-for-android">4.5.6. Extra for Android</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-you-to-modify">4.5.7. A template for you to modify</a></li>
 </ul>
-</li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#favicon">4.6. Favicon</a><ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#facebook-open-graph">4.6.1. Facebook Open Graph</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#twitter-cards">4.6.2. Twitter cards</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css">4.6.3. CSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#extra-for-android">4.6.4. Extra for Android</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-template-for-you-to-modify">4.6.5. A template for you to modify</a></li>
-</ul>
-</li>
-</ul>
-
   </nav></div>
 
 </div></div>
