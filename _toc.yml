@@ -60,3 +60,5 @@ parts:
     numbered: 1
     chapters:
       - file: parts/appendix/useful-links
+      - file: parts/appendix/glossary
+      - file: genindex
