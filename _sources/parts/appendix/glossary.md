@@ -1,5 +1,9 @@
 # Glossary
 
+```{warning}
+Check sources before production.
+```
+
 ```{glossary}
 8-bit
   With regard to image formats, 8-bits can describe up to 256 colors (28=256).

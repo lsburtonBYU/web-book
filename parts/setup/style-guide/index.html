@@ -66,7 +66,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="3.1. Sample style guides &amp; font pairing" href="sample.html" />
+    <link rel="next" title="3.1.1. Color on the web" href="color.html" />
     <link rel="prev" title="2.3. Learn more" href="../internet/learn-more.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -176,20 +176,20 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">3. Style guides</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="sample.html">3.1. Sample style guides &amp; font pairing</a></li>
-<li class="toctree-l2"><a class="reference internal" href="color.html">3.2. Color on the web</a></li>
-<li class="toctree-l2"><a class="reference internal" href="accessibility.html">3.3. Designing for accessibility</a></li>
-<li class="toctree-l2"><a class="reference internal" href="useful-links.html">3.4. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="color.html">3.1.1. Color on the web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessibility.html">3.1.2. Designing for accessibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="useful-links.html">3.1.3. Useful links</a></li>
 </ul>
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part II - HTML</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../html/html-basics/index.html">4. HTML basics</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-template.html">4.4. HTML template</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-head.html">4.5. Configuring HTML &lt;head&gt;</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/validate.html">4.6. Validating HTML</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/style-guide.html">4.7. HTML Style Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-template.html">4.2. HTML template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-head.html">4.3. Configuring HTML &lt;head&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/validate.html">4.4. Validating HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/style-guide.html">4.5. HTML Style Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/useful-links.html">4.6. Useful links</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../html/semantic-html/index.html">5. Semantic HTML</a></li>
@@ -392,7 +392,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -408,6 +410,18 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#style-guide-assignment">3.1. Style guide assignment</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assignment-description">3.1.4. Assignment description</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rubric">3.1.5. Rubric</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -420,7 +434,7 @@ document.write(`
   <section id="style-guides">
 <h1><span class="section-number">3. </span>Style guides<a class="headerlink" href="#style-guides" title="Permalink to this heading">#</a></h1>
 <div class="admonition-objectives admonition">
-<p class="admonition-title">Objectives}</p>
+<p class="admonition-title">Objectives</p>
 <ul class="simple">
 <li><p>Understand the importance of style guides and how they are used when developing websites</p></li>
 <li><p>Understand how to use web fonts</p></li>
@@ -432,8 +446,103 @@ document.write(`
 </li>
 </ul>
 </div>
+<section id="style-guide-assignment">
+<h2><span class="section-number">3.1. </span>Style guide assignment<a class="headerlink" href="#style-guide-assignment" title="Permalink to this heading">#</a></h2>
+<p>Before beginning the assignment, complete the following steps:</p>
+<ol class="arabic">
+<li><p>Review the pages in this section.</p>
 <div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="color.html">3.1.1. Color on the web</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accessibility.html">3.1.2. Designing for accessibility</a></li>
+<li class="toctree-l1"><a class="reference internal" href="useful-links.html">3.1.3. Useful links</a></li>
+</ul>
 </div>
+</li>
+<li><p>Watch Khan Academy’s videos on the RGB and HSL color models.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.khanacademy.org/computing/pixar/color/color-101/v/color-2">RGB color model</a> <em>~3 minutes</em></p></li>
+<li><p><a class="reference external" href="https://www.khanacademy.org/computing/pixar/color/color-101/v/color-3">HSL color model</a>  <em>~2 minutes</em></p></li>
+</ul>
+</li>
+<li><p>Read Steve Schoger’s <a class="reference external" href="https://www.refactoringui.com/previews/building-your-color-palette">Building your color palette</a> to learn how to not overdo on color choices.</p></li>
+<li><p>Scan</p>
+<ul class="simple">
+<li><p>Smashing Magazine’s <a class="reference external" href="https://www.smashingmagazine.com/2010/01/color-theory-for-designers-part-1-the-meaning-of-color/">Color Theory for Designers - Part 1</a></p></li>
+<li><p>a few color palettes at some of the links in <a class="reference internal" href="color.html"><span class="doc std std-doc">Color on the Web page</span></a></p></li>
+</ul>
+</li>
+</ol>
+<section id="assignment-description">
+<h3><span class="section-number">3.1.4. </span>Assignment description<a class="headerlink" href="#assignment-description" title="Permalink to this heading">#</a></h3>
+<p><strong>Submit a preliminary style guide and a site topic for the website you will build this semester.</strong></p>
+<p>Include the following in your style guide:</p>
+<ul class="simple">
+<li><p>a color palette</p></li>
+<li><p>a font palette using two Google Fonts</p></li>
+</ul>
+<p>I recommend using <a class="reference external" href="https://fontpair.co/">FontPair</a> to find complementary Google fonts.</p>
+<p>You are welcome modify my <a class="reference external" href="https://docs.google.com/presentation/d/1GJz0so0V33IxH7s34RNLFI64Nzz7hMsVDhTOOh24Xu8/edit?usp=sharing">simple style guide</a> in Google Slides, which is based on Zech Nelson’s style guides, <a class="reference external" href="https://dribbble.com/shots/1718657-Style-Guides">here</a> and <a class="reference external" href="https://dribbble.com/shots/1883273-Style-Guidelines">here</a>. Another popular style guide format is <a class="reference external" href="http://styletil.es/">Style Tiles</a>.</p>
+<p>Before you submit, check that your background and foreground color choices have enough contrast by using the <a class="reference external" href="https://webaim.org/resources/contrastchecker/">WebAIM Color Contrast Checker</a>.</p>
+<p><strong>Add a second page with your site topic</strong>. Since this class is more about learning the underlying tech, the topic isn’t that important. Choose something that interests you and that you can easily write about and find images for. Remember, we will share sites in class, so don’t pick a super personal topic that you wouldn’t want other students to see.</p>
+<p>Submit a PDF of your style guide and site topic in #style-guides on Slack.</p>
+</section>
+<section id="rubric">
+<h3><span class="section-number">3.1.5. </span>Rubric<a class="headerlink" href="#rubric" title="Permalink to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p><strong>Criteria</strong></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p><strong>Points</strong></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p><strong>Color palette</strong></p>
+<p>Include:</p>
+<ul>
+<li><p>at least four colors in your palette, but no more than six</p></li>
+<li><p>a dark grey color for text</p>
+<p><em>Assuming you use a white background - if you want a different background color, indicate that and make sure that the contrast ratio is acceptable.</em></p>
+</li>
+</ul>
+<p>Each color must include:</p>
+<ul class="simple">
+<li><p>a sample of the color</p></li>
+<li><p>the color’s hex value</p></li>
+<li><p>a name (you can name the colors yourself)</p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p>20</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p><strong>Fonts</strong></p>
+<p>Choose two complementary Google fonts, one for heading text, one for body text. Give samples of each and include the font names.</p>
+<p>Display styles for 4 heading levels</p>
+<p><em>If you are using Google Slides to create your style guide, you can easily import the fonts.</em></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p>10</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p><strong>Aesthetics</strong></p>
+<p>The stylesheet should have a clean layout, with items aligned and proper use of whitespace.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p>5</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 sd-border-1 docutils">
+<p><strong>Site topic</strong></p>
+<p>Site topic is list on a separate page.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 sd-border-1 docutils">
+<p>5</p>
+</div>
+</div>
+</div>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -477,11 +586,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="sample.html"
+       href="color.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">3.1. </span>Sample style guides &amp; font pairing</p>
+        <p class="prev-next-title"><span class="section-number">3.1.1. </span>Color on the web</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -494,6 +603,24 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#style-guide-assignment">3.1. Style guide assignment</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#assignment-description">3.1.4. Assignment description</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#rubric">3.1.5. Rubric</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
