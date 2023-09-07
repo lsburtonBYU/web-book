@@ -4,5 +4,7 @@ This is a work in progress.
 
 I'm consolidating my web class info from Learning Suite into a more accessible format.
 
-```{tableofcontents}
-```
+## Assignments
+
+- [Style guide](parts/setup/style-guide/index)
+- [First web page](parts/html/html-basics/index)

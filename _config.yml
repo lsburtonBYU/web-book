@@ -12,6 +12,7 @@ parse:
     - deflist
     - html_admonition
     - smartquotes
+    - colon_fence
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:

@@ -21,7 +21,6 @@ parts:
           - file: parts/setup/internet/learn-more
       - file: parts/setup/style-guide/index
         sections:
-          - file: parts/setup/style-guide/sample
           - file: parts/setup/style-guide/color
           - file: parts/setup/style-guide/accessibility
           - file: parts/setup/style-guide/useful-links
@@ -34,6 +33,7 @@ parts:
           - file: parts/html/html-basics/html-head
           - file: parts/html/html-basics/validate
           - file: parts/html/html-basics/style-guide
+          - file: parts/html/html-basics/useful-links
       - file: parts/html/semantic-html/index
       - file: parts/html/accessibility/index
       - file: parts/html/links-images/index
