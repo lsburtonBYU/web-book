@@ -19,7 +19,7 @@ See rubric for grading details.
 ```
 
 ```{tip}
-[Sample assignment](https://github.com/is-120-winter-2023/first-web-page-free-churro)
+[Sample assignment](https://github.com/lsburtonBYU/first-web-page-sample)
 ```
 
 ## Rubric
