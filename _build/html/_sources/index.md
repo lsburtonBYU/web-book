@@ -6,5 +6,5 @@ I'm consolidating my web class info from Learning Suite into a more accessible f
 
 ## Assignments
 
-- [Style guide](parts/setup/style-guide/index)
-- [First web page](parts/html/html-basics/index)
+- [Style guide](parts/setup/style-guide/assignment)
+- [First web page](parts/html/html-basics/assignment)

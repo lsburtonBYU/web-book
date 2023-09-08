@@ -4,7 +4,7 @@ options:
   numbered: true
 parts:
   - caption: "Part I - Getting started"
-    numbered: true
+    numbered: 2
     chapters:
       - file: parts/setup/getting-started/index
         sections:
@@ -24,6 +24,7 @@ parts:
           - file: parts/setup/style-guide/color
           - file: parts/setup/style-guide/accessibility
           - file: parts/setup/style-guide/useful-links
+          - file: parts/setup/style-guide/assignment
   - caption: "Part II - HTML"
     numbered: 3
     chapters:
@@ -34,6 +35,7 @@ parts:
           - file: parts/html/html-basics/validate
           - file: parts/html/html-basics/style-guide
           - file: parts/html/html-basics/useful-links
+          - file: parts/html/html-basics/assignment
       - file: parts/html/semantic-html/index
       - file: parts/html/accessibility/index
       - file: parts/html/links-images/index

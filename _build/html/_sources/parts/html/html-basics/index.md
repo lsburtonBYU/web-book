@@ -10,7 +10,3 @@
 - Know how to use browser dev tools
 - Use Git for version control
 ```
-
-## First web page assignment
-
-**Host a basic index.html file on GitHub Pages. Include a favicon and make sure that the page validates with no errors or warnings.**

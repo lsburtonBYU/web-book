@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/exercise.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -176,20 +177,22 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../style-guide/index.html">3. Style guides</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../style-guide/color.html">3.1.1. Color on the web</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../style-guide/accessibility.html">3.1.2. Designing for accessibility</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../style-guide/useful-links.html">3.1.3. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/color.html">3.1. Color on the web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/accessibility.html">3.2. Designing for accessibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/useful-links.html">3.3. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../style-guide/assignment.html">3.4. Style guide assignment</a></li>
 </ul>
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part II - HTML</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../html/html-basics/index.html">4. HTML basics</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-template.html">4.2. HTML template</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-head.html">4.3. Configuring HTML &lt;head&gt;</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/validate.html">4.4. Validating HTML</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/style-guide.html">4.5. HTML Style Guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/useful-links.html">4.6. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-template.html">4.1. HTML template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/html-head.html">4.2. Configuring HTML &lt;head&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/validate.html">4.3. Validating HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/style-guide.html">4.4. HTML Style Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/useful-links.html">4.5. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../html/html-basics/assignment.html">4.6. First web page assignment</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../html/semantic-html/index.html">5. Semantic HTML</a></li>
@@ -415,10 +418,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visual-studio-code">1.1.1. Visual Studio Code</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#firefox">1.1.2. Firefox</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-chrome">1.1.3. Google Chrome</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">1.1.4. Git</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visual-studio-code">Visual Studio Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#firefox">Firefox</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-chrome">Google Chrome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">Git</a></li>
 </ul>
             </nav>
         </div>
@@ -434,17 +437,17 @@ document.write(`
 <h1><span class="section-number">1.1. </span>Required software<a class="headerlink" href="#required-software" title="Permalink to this heading">#</a></h1>
 <p>We will be using the following applications in the class. If you don’t already have them on your computer, please download and install the following:</p>
 <section id="visual-studio-code">
-<h2><span class="section-number">1.1.1. </span>Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permalink to this heading">#</a></h2>
+<h2>Visual Studio Code<a class="headerlink" href="#visual-studio-code" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/vs-code.png" id="vs-code"><img alt="../../../_images/vs-code.png" id="vs-code" src="../../../_images/vs-code.png" style="height: 100px;" /></a>
 <p><a class="reference external" href="https://code.visualstudio.com/">Visual Studio Code</a> is the code editor that we will use to write the HTML and CSS for our websites.</p>
 </section>
 <section id="firefox">
-<h2><span class="section-number">1.1.2. </span>Firefox<a class="headerlink" href="#firefox" title="Permalink to this heading">#</a></h2>
+<h2>Firefox<a class="headerlink" href="#firefox" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/firefox-logo.png" id="id1"><img alt="../../../_images/firefox-logo.png" id="id1" src="../../../_images/firefox-logo.png" style="height: 100px;" /></a>
 <p><a class="reference external" href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> has the best CSS dev tools, so we will use it as our main browser to debug our websites.</p>
 </section>
 <section id="google-chrome">
-<h2><span class="section-number">1.1.3. </span>Google Chrome<a class="headerlink" href="#google-chrome" title="Permalink to this heading">#</a></h2>
+<h2>Google Chrome<a class="headerlink" href="#google-chrome" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/chrome-logo.png" id="chrome"><img alt="../../../_images/chrome-logo.png" id="chrome" src="../../../_images/chrome-logo.png" style="height: 100px;" /></a>
 <p><a class="reference external" href="https://www.google.com/chrome/">Chrome</a> has some dev tool features that are better than Firefox’s, so it’s good to have both browsers installed. It’s helpful to test sites in multiple browsers.</p>
 <div class="admonition tip">
@@ -453,7 +456,7 @@ document.write(`
 </div>
 </section>
 <section id="git">
-<h2><span class="section-number">1.1.4. </span>Git<a class="headerlink" href="#git" title="Permalink to this heading">#</a></h2>
+<h2>Git<a class="headerlink" href="#git" title="Permalink to this heading">#</a></h2>
 <a class="reference internal image-reference" href="../../../_images/git-logo.png" id="id2"><img alt="../../../_images/git-logo.png" id="id2" src="../../../_images/git-logo.png" style="height: 100px;" /></a>
 <p><a class="reference external" href="https://git-scm.com/">Git</a> is a version control system that we will use to manage our code. It’s a good idea to use version control for any code you write, even if you’re the only one working on it. It’s especially important when you’re working with a team.</p>
 <p>Here’s a 7 minute video showing how to install and configure Git</p>
@@ -548,10 +551,10 @@ git<span class="w"> </span>config<span class="w"> </span>--global<span class="w"
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visual-studio-code">1.1.1. Visual Studio Code</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#firefox">1.1.2. Firefox</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-chrome">1.1.3. Google Chrome</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">1.1.4. Git</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#visual-studio-code">Visual Studio Code</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#firefox">Firefox</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#google-chrome">Google Chrome</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#git">Git</a></li>
 </ul>
   </nav></div>
 
