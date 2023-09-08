@@ -9,6 +9,9 @@ We will use Codepen extensively in class to experiment with CSS and learn concep
 
 Once we start learning CSS, Codepen will function as "notes" for the class, as I will frequently post links to sample pens, and you will work on some pens in class. These sample pens can be used as references when you build your website.
 
+````{exercise}
+:label: create-codepen-account
+
 Create a free account on [Codepen](https://codepen.io/accounts/signup/user/free).
 
 After you create your account, you need to change some settings. In your Codepen settings, find CSS Reset, and select "Include Normalize." Next, enable Autocomplete:
@@ -18,8 +21,20 @@ After you create your account, you need to change some settings. In your Codepen
 :alt: Codepen settings
 ```
 
-After you change your settings, submit your Codepen account profile page URL through Learning Suite.
+After you change your settings, post your Codepen account profile page URL on Slack.
 
 Your profile page URL will include your username. For example, my username is *lsburton* and my Codepen account URL is
 
 [https://codepen.io/lsburton](https://codepen.io/lsburton)
+````
+
+```{solution} create-codepen-account
+:label: create-codepen-account-solution
+:class: dropdown
+
+I'm testing the Sphinx Exercise extension here.
+
+My username is *lsburton* and my Codepen account URL is
+
+[https://codepen.io/lsburton](https://codepen.io/lsburton)
+```

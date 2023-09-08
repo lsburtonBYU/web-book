@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>4.2. HTML template &#8212; Introduction to Web Development</title>
+    <title>4.1. HTML template &#8212; Introduction to Web Development</title>
   
   
   
@@ -35,6 +35,7 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/exercise.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -66,7 +67,7 @@ const thebe_selector_output = ".output, .cell_output"
     <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="4.3. Configuring HTML &lt;head&gt;" href="html-head.html" />
+    <link rel="next" title="4.2. Configuring HTML &lt;head&gt;" href="html-head.html" />
     <link rel="prev" title="4. HTML basics" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -176,20 +177,22 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../setup/style-guide/index.html">3. Style guides</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/color.html">3.1.1. Color on the web</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/accessibility.html">3.1.2. Designing for accessibility</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/useful-links.html">3.1.3. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/color.html">3.1. Color on the web</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/accessibility.html">3.2. Designing for accessibility</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/useful-links.html">3.3. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../setup/style-guide/assignment.html">3.4. Style guide assignment</a></li>
 </ul>
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Part II - HTML</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">4. HTML basics</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">4.2. HTML template</a></li>
-<li class="toctree-l2"><a class="reference internal" href="html-head.html">4.3. Configuring HTML &lt;head&gt;</a></li>
-<li class="toctree-l2"><a class="reference internal" href="validate.html">4.4. Validating HTML</a></li>
-<li class="toctree-l2"><a class="reference internal" href="style-guide.html">4.5. HTML Style Guide</a></li>
-<li class="toctree-l2"><a class="reference internal" href="useful-links.html">4.6. Useful links</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">4.1. HTML template</a></li>
+<li class="toctree-l2"><a class="reference internal" href="html-head.html">4.2. Configuring HTML &lt;head&gt;</a></li>
+<li class="toctree-l2"><a class="reference internal" href="validate.html">4.3. Validating HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="style-guide.html">4.4. HTML Style Guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="useful-links.html">4.5. Useful links</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignment.html">4.6. First web page assignment</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../semantic-html/index.html">5. Semantic HTML</a></li>
@@ -415,14 +418,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-this-template-in-vs-code">4.2.1. Generate this template in VS Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-this-template-in-vs-code">4.1.1. Generate this template in VS Code</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-html-file">Create a new HTML file</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-the-template-with-emmet">Generate the template with Emmet</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-title-and-description">Add a title and description</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-css-reset-file">Add a CSS reset file</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-instructions">4.2.2. Video instructions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-instructions">4.1.2. Video instructions</a></li>
 </ul>
             </nav>
         </div>
@@ -435,7 +438,7 @@ document.write(`
                 <article class="bd-article" role="main">
                   
   <section id="html-template">
-<h1><span class="section-number">4.2. </span>HTML template<a class="headerlink" href="#html-template" title="Permalink to this heading">#</a></h1>
+<h1><span class="section-number">4.1. </span>HTML template<a class="headerlink" href="#html-template" title="Permalink to this heading">#</a></h1>
 <p>You must use the following template for your HTML files</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
@@ -457,7 +460,7 @@ document.write(`
 <p>The video at the bottom of this page steps through this process and also shows how to use VS Code snippets to streamline the process.</p>
 </div>
 <section id="generate-this-template-in-vs-code">
-<h2><span class="section-number">4.2.1. </span>Generate this template in VS Code<a class="headerlink" href="#generate-this-template-in-vs-code" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.1.1. </span>Generate this template in VS Code<a class="headerlink" href="#generate-this-template-in-vs-code" title="Permalink to this heading">#</a></h2>
 <p>Use VS Code’s built-in Emmet tool to generate the template.</p>
 <section id="create-a-new-html-file">
 <h3>Create a new HTML file<a class="headerlink" href="#create-a-new-html-file" title="Permalink to this heading">#</a></h3>
@@ -496,7 +499,7 @@ document.write(`
 </section>
 </section>
 <section id="video-instructions">
-<h2><span class="section-number">4.2.2. </span>Video instructions<a class="headerlink" href="#video-instructions" title="Permalink to this heading">#</a></h2>
+<h2><span class="section-number">4.1.2. </span>Video instructions<a class="headerlink" href="#video-instructions" title="Permalink to this heading">#</a></h2>
 <aside class="topic">
 <p class="topic-title">Watch</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YOZiusATN78?si=EVPVyAMONrfyXrqr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -549,7 +552,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">4.3. </span>Configuring HTML &lt;head&gt;</p>
+        <p class="prev-next-title"><span class="section-number">4.2. </span>Configuring HTML &lt;head&gt;</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -571,14 +574,14 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-this-template-in-vs-code">4.2.1. Generate this template in VS Code</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-this-template-in-vs-code">4.1.1. Generate this template in VS Code</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-new-html-file">Create a new HTML file</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#generate-the-template-with-emmet">Generate the template with Emmet</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-title-and-description">Add a title and description</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-css-reset-file">Add a CSS reset file</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-instructions">4.2.2. Video instructions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#video-instructions">4.1.2. Video instructions</a></li>
 </ul>
   </nav></div>
 
