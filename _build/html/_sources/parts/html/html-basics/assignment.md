@@ -20,6 +20,7 @@ See rubric for grading details.
 
 ```{tip}
 [Sample assignment](https://github.com/lsburtonBYU/first-web-page-sample)
+
 [Fancy assignment with CSS](https://lsburtonbyu.github.io/first-webpage/)
 ```
 
