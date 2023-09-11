@@ -18,8 +18,21 @@
 - Know how to find, crop, and resize images, and understand image copyright laws
 - Know when to use alt attribute and how to write appropriate alt text
 - Identify when \<figure\> and \<figcaption\> should be used
-- Understand the appropriate use of \<img\> width and height attributes (see Smashing Magazine's [Setting Height and Width on Images is Important Again](https://www.smashingmagazine.com/2020/03/setting-height-width-images-important-again/))
+- Understand the appropriate use of \<img\> width and height attributes
 ```
+Watch this 3 minute Small Thing Big Idea TED video: [How the hyperlink changed everything](https://youtu.be/3Va3oY8pfSI)
+
+Read MDN's
+
+- [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+- [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+
+Scan:
+
+- MDN's [\<a\> : The Anchor Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a) – focus on the download and target attributes. Also understand how to link to an email address and a telephone number.
+
+- CSS Tricks: [Looking at WCAG 2.5.5 for Better Target Sizes](https://css-tricks.com/looking-at-wcag-2-5-5-for-better-target-sizes/) – this will be more relevant when we learn CSS
+
 
 ## Learn more
 
