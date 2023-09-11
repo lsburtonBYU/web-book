@@ -458,11 +458,30 @@ document.write(`
 </ul>
 </div>
 <p>Watch this 3 minute Small Thing Big Idea TED video: <a class="reference external" href="https://youtu.be/3Va3oY8pfSI">How the hyperlink changed everything</a></p>
-<p>Read MDN’s</p>
+<p>Read:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Creating hyperlinks</a></p></li>
-<li><p><a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a></p></li>
+<li><p>MDN’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Creating hyperlinks</a></p></li>
+<li><p>MDS’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a></p></li>
+<li><p>CSS Trick’s <a class="reference external" href="https://css-tricks.com/a-deep-dive-into-native-lazy-loading-for-images-and-frames/">A Deep Dive into Native Lazy-Loading for Images and Frames</a></p></li>
 </ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Hyperlinks tl;dr</strong></p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;image.png&quot;</span></code> – look in the current folder</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;../image.png&quot;</span></code> – look in the parent folder (go “back” or “up” depending on how you visualize the directory structure)</p></li>
+</ul>
+<p>Do not use</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;/image.png&quot;</span></code> – <em>root relative</em>, look in the root folder; on some servers this will look in the same folder as your main index.html, but on GitHub pages, it will not work.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;./image.png&quot;</span></code> – this is the same as current folder about but is not recommend</p></li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p><strong>Lazy loading tl;dr</strong></p>
+<p>Add <code class="docutils literal notranslate"><span class="pre">loading=&quot;lazy&quot;</span></code> to image tags that are <em>below the fold</em> (not visible when the page loads). This will delay loading the image until the user scrolls to it. This can significantly improve page load speed.</p>
+</div>
 <p>Scan:</p>
 <ul class="simple">
 <li><p>MDN’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">&lt;a&gt; : The Anchor Element</a> – focus on the download and target attributes. Also understand how to link to an email address and a telephone number.</p></li>
