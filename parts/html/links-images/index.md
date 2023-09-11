@@ -22,10 +22,26 @@
 ```
 Watch this 3 minute Small Thing Big Idea TED video: [How the hyperlink changed everything](https://youtu.be/3Va3oY8pfSI)
 
-Read MDN's
+Read:
 
-- [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
-- [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+- MDN's [Creating hyperlinks](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks)
+- MDS's [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
+- CSS Trick's [A Deep Dive into Native Lazy-Loading for Images and Frames](https://css-tricks.com/a-deep-dive-into-native-lazy-loading-for-images-and-frames/)
+
+```{tip} **Hyperlinks tl;dr**
+
+- `src="image.png"` – look in the current folder
+- `src="../image.png"` – look in the parent folder (go "back" or "up" depending on how you visualize the directory structure)
+
+Do not use
+- `src="/image.png"` – *root relative*, look in the root folder; on some servers this will look in the same folder as your main index.html, but on GitHub pages, it will not work.
+- `src="./image.png"` – this is the same as current folder about but is not recommend
+```
+
+```{tip} **Lazy loading tl;dr**
+
+Add `loading="lazy"` to image tags that are *below the fold* (not visible when the page loads). This will delay loading the image until the user scrolls to it. This can significantly improve page load speed.
+```
 
 Scan:
 
