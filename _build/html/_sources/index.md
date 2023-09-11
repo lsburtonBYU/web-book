@@ -8,3 +8,4 @@ I'm consolidating my web class info from Learning Suite into a more accessible f
 
 - [Style guide](parts/setup/style-guide/assignment)
 - [First web page](parts/html/html-basics/assignment)
+- [Semantic HTML](parts/html/semantic-html/assignment)

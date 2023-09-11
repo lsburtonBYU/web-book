@@ -37,6 +37,8 @@ parts:
           - file: parts/html/html-basics/useful-links
           - file: parts/html/html-basics/assignment
       - file: parts/html/semantic-html/index
+        sections:
+          - file: parts/html/semantic-html/assignment
       - file: parts/html/accessibility/index
       - file: parts/html/links-images/index
         sections:
