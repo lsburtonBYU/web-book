@@ -6,7 +6,7 @@
 :label: semantic-html-assignment
 **Create HTML pages using semantic markup. Include a navigation menu that links to two subpages.**
 
-Before beginning this assignment, read the [Semantic HTML](../semantic-html/index.md), [Accessibility bascis](../accessibility/index.md), and [Links and basic images](../links-images/index.md) pages.
+Before beginning this assignment, read the [Semantic HTML](../semantic-html/index.md), [Accessibility basics](../accessibility/index.md), and [Links and basic images](../links-images/index.md) pages.
 ```
 
 ```{tip}
@@ -36,7 +36,7 @@ Some references from the assignment
 
 ```{list-table}
 :header-rows: 1
-:name: first-web-page-rubric
+:name: semantic-html-rubric
 :width: 90%
 
 * - Requirement
