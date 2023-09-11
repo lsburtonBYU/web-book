@@ -44,6 +44,8 @@ parts:
         sections:
           - file: parts/html/links-images/resources
       - file: parts/html/responsive-images-svg/index
+        sections:
+          - file: parts/html/responsive-images-svg/assignment
   - caption: "Part III - CSS basics"
     numbered: true
     chapters:
