@@ -28,7 +28,7 @@ Read:
 - MDS's [Images in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML)
 - CSS Trick's [A Deep Dive into Native Lazy-Loading for Images and Frames](https://css-tricks.com/a-deep-dive-into-native-lazy-loading-for-images-and-frames/) - *you don't need to enable lazy loading in browsers any more, it's baked in*
 
-```{tip} **Hyperlinks tl;dr**
+```{tip} **Relative paths tl;dr**
 
 - `src="image.png"` – look in the current folder
 - `src="../image.png"` – look in the parent folder (go "back" or "up" depending on how you visualize the directory structure)
