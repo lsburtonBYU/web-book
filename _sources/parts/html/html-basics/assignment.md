@@ -9,16 +9,18 @@
 
 Accept the GitHub Classroom assignment which will create a repo in your GitHub classroom account (you will have to also join our web dev organization when prompted). Then, follow the assignment instructions in the README file.
 
-More info
-
-- [Emmet](https://emmet.io/) - makes writing HTML and CSS faster by allowing you to type shortcuts that are expanded into code
-- [Understanding HTML <head>](html-head.md) -for info on adding Open Graph (og) to your page for the optional extra credit
-- [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need?](https://css-tricks.com/favicon-quiz/)
 
 See rubric for grading details.
 ```
 
 ```{tip}
+
+More info
+
+- [Emmet](https://emmet.io/) - makes writing HTML and CSS faster by allowing you to type shortcuts that are expanded into code
+- [Understanding HTML <head>](html-head.md) - for info on adding Open Graph (og) to your page for the optional extra credit
+- [Favicons, Touch Icons, Tile Icons, etc. Which Do You Need?](https://css-tricks.com/favicon-quiz/)
+
 [Sample assignment](https://github.com/lsburtonBYU/first-web-page-sample)
 
 [Fancy assignment with CSS](https://lsburtonbyu.github.io/first-webpage/)
