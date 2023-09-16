@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>7. Links and basic images &#8212; Introduction to Web Development</title>
+    <title>8.1. Create a simple SVG learning task &#8212; Introduction to Web Development</title>
   
   
   
@@ -62,13 +62,13 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../../_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'parts/html/links-images/index';</script>
-    <link rel="canonical" href="https://lsburtonbyu.github.io/web-book/parts/html/links-images/index.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'parts/html/responsive-images-svg/learning-task-simple-svg';</script>
+    <link rel="canonical" href="https://lsburtonbyu.github.io/web-book/parts/html/responsive-images-svg/learning-task-simple-svg.html" />
     <link rel="shortcut icon" href="../../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="7.2. Resources for images" href="resources.html" />
-    <link rel="prev" title="6. Accessibility basics" href="../accessibility/index.html" />
+    <link rel="next" title="8.2. Responsive images and SVG assignment" href="assignment.html" />
+    <link rel="prev" title="8. Responsive images and SVG" href="index.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -200,13 +200,13 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../accessibility/index.html">6. Accessibility basics</a></li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">7. Links and basic images</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="resources.html">7.2. Resources for images</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../links-images/index.html">7. Links and basic images</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../links-images/resources.html">7.2. Resources for images</a></li>
 </ul>
 </li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../responsive-images-svg/index.html">8. Responsive images and SVG</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../responsive-images-svg/learning-task-simple-svg.html">8.1. Create a simple SVG learning task</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../responsive-images-svg/assignment.html">8.2. Responsive images and SVG assignment</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="index.html">8. Responsive images and SVG</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">8.1. Create a simple SVG learning task</a></li>
+<li class="toctree-l2"><a class="reference internal" href="assignment.html">8.2. Responsive images and SVG assignment</a></li>
 </ul>
 </li>
 </ul>
@@ -304,7 +304,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/lsburtonBYU/web-book/issues/new?title=Issue%20on%20page%20%2Fparts/html/links-images/index.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/lsburtonBYU/web-book/issues/new?title=Issue%20on%20page%20%2Fparts/html/responsive-images-svg/learning-task-simple-svg.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -334,7 +334,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="../../../_sources/parts/html/links-images/index.md" target="_blank"
+      <li><a href="../../../_sources/parts/html/responsive-images-svg/learning-task-simple-svg.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -403,9 +403,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -416,19 +414,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Links and basic images</h1>
+    <h1>Create a simple SVG learning task</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">7.1. Learn more</a></li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -438,65 +428,22 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="links-and-basic-images">
-<h1><span class="section-number">7. </span>Links and basic images<a class="headerlink" href="#links-and-basic-images" title="Permalink to this heading">#</a></h1>
-<div class="admonition-objectives admonition">
-<p class="admonition-title">Objectives</p>
-<p><strong>Links</strong></p>
+  <section id="create-a-simple-svg-learning-task">
+<h1><span class="section-number">8.1. </span>Create a simple SVG learning task<a class="headerlink" href="#create-a-simple-svg-learning-task" title="Permalink to this heading">#</a></h1>
+<div class="exercise admonition" id="learning-task-simple-svg">
+
+<p class="admonition-title"><span class="caption-number">Exercise 8.1 </span></p>
+<section id="exercise-content">
+<p><strong>Learn how to manually create an SVG image</strong></p>
 <ul class="simple">
-<li><p>Understand what hyperlinks, URLs, and paths are</p></li>
-<li><p>Understand the difference between absolute and relative links, and when to use one or the other</p></li>
-<li><p>Know how to write clear link text and understand how it impacts accessibility and SEO</p></li>
-<li><p>Be able to link to document fragments</p></li>
-<li><p>Understand why an optimal “touch target” is 44 x 44 pixels</p></li>
+<li><p>Review <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes">MDN’s basic shapes tutorial</a></p></li>
+<li><p>Fork the <a class="reference external" href="https://codepen.io/lsburton/pen/yLXvxJq">Simple inline SVG Codepen</a>.</p></li>
+<li><p>Save the Codepen to your account.</p></li>
+<li><p>In the Codepen, add markup to the <code class="docutils literal notranslate"><span class="pre">&lt;svg&gt;</span></code> element to create a simple image. Ideas include an X, a hamburger menu (2 or 3 stacked lines), a check mark or a circle. Review the icons on <a class="reference external" href="https://feathericons.com/">Feather icons</a> for ideas.</p></li>
 </ul>
-<p><strong>Images</strong></p>
-<ul class="simple">
-<li><p>Demonstrate image loading with the Dev Tool’s waterfall chart, and understand how image size impacts page load speed</p></li>
-<li><p>Know how to determine image size and resolution for web pages</p></li>
-<li><p>Understand lazy loading and its implementation in HTML</p></li>
-<li><p>Be familiar with web graphic formats including JPG, PNG, GIF, and WEBP, and explain when each type is appropriate</p></li>
-<li><p>Know how to find, crop, and resize images, and understand image copyright laws</p></li>
-<li><p>Know when to use alt attribute and how to write appropriate alt text</p></li>
-<li><p>Identify when &lt;figure&gt; and &lt;figcaption&gt; should be used</p></li>
-<li><p>Understand the appropriate use of &lt;img&gt; width and height attributes</p></li>
-</ul>
-</div>
-<p>Watch this 3 minute Small Thing Big Idea TED video: <a class="reference external" href="https://youtu.be/3Va3oY8pfSI">How the hyperlink changed everything</a></p>
-<p>Read:</p>
-<ul class="simple">
-<li><p>MDN’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Creating hyperlinks</a></p></li>
-<li><p>MDS’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML">Images in HTML</a></p></li>
-<li><p>CSS Trick’s <a class="reference external" href="https://css-tricks.com/a-deep-dive-into-native-lazy-loading-for-images-and-frames/">A Deep Dive into Native Lazy-Loading for Images and Frames</a> - <em>you don’t need to enable lazy loading in browsers any more, it’s baked in</em></p></li>
-</ul>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p><strong>Relative paths tl;dr</strong></p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;image.png&quot;</span></code> – look in the current folder</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;../image.png&quot;</span></code> – look in the parent folder (go “back” or “up” depending on how you visualize the directory structure)</p></li>
-</ul>
-<p>Do not use</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;/image.png&quot;</span></code> – <em>root relative</em>, look in the root folder; on some servers this will look in the same folder as your main index.html, but on GitHub pages, it will not work.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">src=&quot;./image.png&quot;</span></code> – this is the same as current folder about but is not recommend</p></li>
-</ul>
-</div>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p><strong>Lazy loading tl;dr</strong></p>
-<p>Add <code class="docutils literal notranslate"><span class="pre">loading=&quot;lazy&quot;</span></code> to image tags that are <em>below the fold</em> (not visible when the page loads). This will delay loading the image until the user scrolls to it. This can significantly improve page load speed.</p>
-</div>
-<p>Scan:</p>
-<ul class="simple">
-<li><p>MDN’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a">&lt;a&gt; : The Anchor Element</a> – focus on the download and target attributes. Also understand how to link to an email address and a telephone number.</p></li>
-<li><p>CSS Tricks: <a class="reference external" href="https://css-tricks.com/looking-at-wcag-2-5-5-for-better-target-sizes/">Looking at WCAG 2.5.5 for Better Target Sizes</a> – this will be more relevant when we learn CSS</p></li>
-</ul>
-<section id="learn-more">
-<h2><span class="section-number">7.1. </span>Learn more<a class="headerlink" href="#learn-more" title="Permalink to this heading">#</a></h2>
-<p>for CSS: <a class="reference external" href="https://ishadeed.com/article/clickable-area/">Enhancing The Clickable Area Size</a></p>
+<p>Make sure all of the image displays – <em>adding line caps and stroke width increases the width of an SVG, so adjust coordinates as needed</em>.</p>
+<p>Submit the URL for your Codepen when you are finished.</p>
 </section>
-<div class="toctree-wrapper compound">
 </div>
 </section>
 
@@ -513,7 +460,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./parts\html\links-images"
+            path: "./parts\html\responsive-images-svg"
         },
         predefinedOutput: true
     }
@@ -532,20 +479,20 @@ document.write(`
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../accessibility/index.html"
+       href="index.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">6. </span>Accessibility basics</p>
+        <p class="prev-next-title"><span class="section-number">8. </span>Responsive images and SVG</p>
       </div>
     </a>
     <a class="right-next"
-       href="resources.html"
+       href="assignment.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">7.2. </span>Resources for images</p>
+        <p class="prev-next-title"><span class="section-number">8.2. </span>Responsive images and SVG assignment</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -558,20 +505,6 @@ document.write(`
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learn-more">7.1. Learn more</a></li>
-</ul>
-  </nav></div>
-
-</div></div>
               
             
           </div>
