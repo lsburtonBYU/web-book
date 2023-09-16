@@ -17,7 +17,6 @@ Free SVG images / illustrations
 - [Public Domain Vectors](https://publicdomainvectors.org/en/)
 - [Flaticon](https://www.flaticon.com/)
 
-
 Sample past links and images assignment
 
 - [live site](https://lsburtonbyu.github.io/links-images/)
