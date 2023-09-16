@@ -12,11 +12,33 @@
 - Load an SVG image with `<img>`.
 - Use inline SVGs and create a `<symbol>` to easily reuse your inline SVG.
 
-Before beginning this assignment, read [...].
+**Before beginning this assignment, read**
+
+- MDN's [Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+- The info in this [Intro to SVG](https://codepen.io/lsburton/pen/ZEBYbXw?editors=1100) Codepen
+
+**Be aware of** (*meaning you don't have to read and understand it all, but it's good to know in case you need to reference it later*)
+
+- CSS Tricks [A Guide to the responsive images syntax in HTML](https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/) -- it has helpful info for beginners, but also some more advanced information.
+
+**Review:**
+
+- [How to code SVG icons by hand](https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/) - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial
 ```
 
 ```{tip}
-Some references from the assignment
+**Extra:**
+
+- [Turtle graphics](https://turtleacademy.com/lessons/1) - old school programming
+- [SVGOMG tool](https://jakearchibald.github.io/svgomg/) for cleaning up SVGs
+
+CodePens:
+- [Basic cubic Bezier curve](https://codepen.io/lsburton/pen/mdXarVr?editors=0010)
+- [How cubic Bezier curves are created with de Casteljau's algorithm](https://codepen.io/lsburton/pen/jOZXyaB)
+- [viewBox visualization](https://codepen.io/lsburton/pen/BaZYGKa?editors=0100)
+- [SVG image filters](https://codepen.io/lsburton/pen/RvbNXj?editors=1100)
+- [Color change on hover using SVG filters](https://codepen.io/lsburton/pen/NWwvNPj)
+- [using a webp image in your web page](https://codepen.io/lsburton/pen/XWzrBRY?editors=1000)
 ```
 
 ## Rubric
@@ -30,28 +52,24 @@ Some references from the assignment
 
 * - Requirement
   - Points
-* - **Repo passes all automated tests**, including validating and proofing. A descriptions of the pretests is in the assignment README file.
+* - **Repo passes all automated tests**, including validating and proofing. A description of the pretests is in the assignment README file.
 
-    *Validation (3pts) and a proofer test (2pts) and 25 pretests (2pts each)*
-  - 55
-* - **Readability**
+    *Validator and proofer (2pts each) and 25 pretests (2pts each)*
+  - 54
+* - **HTML Only**
 
-    HTML source follows the [HTML/CSS Style Guide for the course](../html-basics/style-guide.md).
+    No CSS or HTML style tags are used. If you use even one `<br>` tag you will receive a 0 on the assignment. This requirement is to help you appreciate CSS :D
 
-    *Basically this means you should have formatters installed so your code is properly formatted.*
+  - 6
+* - **Hero `<picture>` functional**
 
-  - 5
-* - **HTML only**
+    `<picture>` element correctly loads each image at the set breakpoints. Images are sized and cropped according to assignment specifications given in assignment README.
 
-    No CSS or HTML style tags are used. If you use even one `<br>` tag you will receive a 0 on the assignment :D
+  - 10
+* - **`<img>` with srcset and sizes functional**
 
-    *I'm breaking bad habits early. No `<br>` tags are allowed in this course.*[^footnote-br]
-
-    [^footnote-br]: I'm being overly strict, but I want you to get in the habit of using CSS for layout and spacing.  `<br>` tags have some use, but I maintain you can build a website without them. If you want to use them, you can, but you will receive a 0 on the assignment.
-
-  - 5
-* - **more items forthcoming**
-  - Learning Suite's CAS login failed when I needed to copy the info from Learning Suite. I'll add it later.
+    `<img>` element correctly loads each image at the set breakpoints. Images are identical, except for sizes, which are explained in the assignment specifications given in assignment README.
+  - 10
 * - **GitHub About info**
 
     Include a description and link to your web page in the About section of your repo.

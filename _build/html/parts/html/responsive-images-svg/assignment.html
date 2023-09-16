@@ -453,12 +453,37 @@ document.write(`
 <li><p>Load an SVG image with <code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code>.</p></li>
 <li><p>Use inline SVGs and create a <code class="docutils literal notranslate"><span class="pre">&lt;symbol&gt;</span></code> to easily reuse your inline SVG.</p></li>
 </ul>
-<p>Before beginning this assignment, read […].</p>
+<p><strong>Before beginning this assignment, read</strong></p>
+<ul class="simple">
+<li><p>MDN’s <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images">Responsive images</a></p></li>
+<li><p>The info in this <a class="reference external" href="https://codepen.io/lsburton/pen/ZEBYbXw?editors=1100">Intro to SVG</a> Codepen</p></li>
+</ul>
+<p><strong>Be aware of</strong> (<em>meaning you don’t have to read and understand it all, but it’s good to know in case you need to reference it later</em>)</p>
+<ul class="simple">
+<li><p>CSS Tricks <a class="reference external" href="https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/">A Guide to the responsive images syntax in HTML</a> – it has helpful info for beginners, but also some more advanced information.</p></li>
+</ul>
+<p><strong>Review:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.aleksandrhovhannisyan.com/blog/svg-tutorial-how-to-code-svg-icons-by-hand/">How to code SVG icons by hand</a> - pro tip: set the viewbox to 120,120 so you can use whole numbers instead of decimals like in the tutorial</p></li>
+</ul>
 </section>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
-<p>Some references from the assignment</p>
+<p><strong>Extra:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://turtleacademy.com/lessons/1">Turtle graphics</a> - old school programming</p></li>
+<li><p><a class="reference external" href="https://jakearchibald.github.io/svgomg/">SVGOMG tool</a> for cleaning up SVGs</p></li>
+</ul>
+<p>CodePens:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/mdXarVr?editors=0010">Basic cubic Bezier curve</a></p></li>
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/jOZXyaB">How cubic Bezier curves are created with de Casteljau’s algorithm</a></p></li>
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/BaZYGKa?editors=0100">viewBox visualization</a></p></li>
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/RvbNXj?editors=1100">SVG image filters</a></p></li>
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/NWwvNPj">Color change on hover using SVG filters</a></p></li>
+<li><p><a class="reference external" href="https://codepen.io/lsburton/pen/XWzrBRY?editors=1000">using a webp image in your web page</a></p></li>
+</ul>
 </div>
 </section>
 <section id="rubric">
@@ -472,25 +497,25 @@ document.write(`
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><strong>Repo passes all automated tests</strong>, including validating and proofing. A descriptions of the pretests is in the assignment README file.</p>
-<p><em>Validation (3pts) and a proofer test (2pts) and 25 pretests (2pts each)</em></p>
+<tr class="row-even"><td><p><strong>Repo passes all automated tests</strong>, including validating and proofing. A description of the pretests is in the assignment README file.</p>
+<p><em>Validator and proofer (2pts each) and 25 pretests (2pts each)</em></p>
 </td>
-<td><p>55</p></td>
+<td><p>54</p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>Readability</strong></p>
-<p>HTML source follows the <a class="reference internal" href="../html-basics/style-guide.html"><span class="doc std std-doc">HTML/CSS Style Guide for the course</span></a>.</p>
-<p><em>Basically this means you should have formatters installed so your code is properly formatted.</em></p>
+<tr class="row-odd"><td><p><strong>HTML Only</strong></p>
+<p>No CSS or HTML style tags are used. If you use even one <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code> tag you will receive a 0 on the assignment. This requirement is to help you appreciate CSS :D</p>
 </td>
-<td><p>5</p></td>
+<td><p>6</p></td>
 </tr>
-<tr class="row-even"><td><p><strong>HTML only</strong></p>
-<p>No CSS or HTML style tags are used. If you use even one <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code> tag you will receive a 0 on the assignment :D</p>
-<p><em>I’m breaking bad habits early. No <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code> tags are allowed in this course.</em><a class="footnote-reference brackets" href="#footnote-br" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a></p>
+<tr class="row-even"><td><p><strong>Hero <code class="docutils literal notranslate"><span class="pre">&lt;picture&gt;</span></code> functional</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;picture&gt;</span></code> element correctly loads each image at the set breakpoints. Images are sized and cropped according to assignment specifications given in assignment README.</p>
 </td>
-<td><p>5</p></td>
+<td><p>10</p></td>
 </tr>
-<tr class="row-odd"><td><p><strong>more items forthcoming</strong></p></td>
-<td><p>Learning Suite’s CAS login failed when I needed to copy the info from Learning Suite. I’ll add it later.</p></td>
+<tr class="row-odd"><td><p><strong><code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code> with srcset and sizes functional</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;img&gt;</span></code> element correctly loads each image at the set breakpoints. Images are identical, except for sizes, which are explained in the assignment specifications given in assignment README.</p>
+</td>
+<td><p>10</p></td>
 </tr>
 <tr class="row-even"><td><p><strong>GitHub About info</strong></p>
 <p>Include a description and link to your web page in the About section of your repo.</p>
@@ -500,11 +525,6 @@ document.write(`
 </tbody>
 </table>
 </div>
-<hr class="footnotes docutils" />
-<aside class="footnote brackets" id="footnote-br" role="note">
-<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
-<p>I’m being overly strict, but I want you to get in the habit of using CSS for layout and spacing.  <code class="docutils literal notranslate"><span class="pre">&lt;br&gt;</span></code> tags have some use, but I maintain you can build a website without them. If you want to use them, you can, but you will receive a 0 on the assignment.</p>
-</aside>
 </section>
 </section>
 
