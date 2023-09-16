@@ -1,4 +1,4 @@
-# CSS topic presentation assignment
+# CSS topic presentation learning task
 
 ## Assignment
 

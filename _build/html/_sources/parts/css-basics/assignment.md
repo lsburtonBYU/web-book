@@ -1,4 +1,4 @@
-# CSS topic presentation assignment
+# CSS topic presentation learning task
 
 ## Assignment
 
@@ -50,7 +50,7 @@ main {
 
 article {
   max-width: 48rem; /* choose whatever width you'd like.
-                      "em" can be viewed as the width
+                      "rem" can be viewed as the width
                        of a font's M character */
 }
 
