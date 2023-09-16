@@ -45,6 +45,7 @@ parts:
           - file: parts/html/links-images/resources
       - file: parts/html/responsive-images-svg/index
         sections:
+          - file: parts/html/responsive-images-svg/learning-task-simple-svg
           - file: parts/html/responsive-images-svg/assignment
   - caption: "Part III - CSS basics"
     numbered: true
@@ -54,7 +55,7 @@ parts:
           - file: parts/css-basics/specificity
           - file: parts/css-basics/styling-links
           - file: parts/css-basics/positioning
-          - file: parts/css-basics/assignment
+          - file: parts/css-basics/learning-task-presentation
   - caption: "Part IV - Animation"
     numbered: true
     chapters:
