@@ -32,13 +32,21 @@
 - [Turtle graphics](https://turtleacademy.com/lessons/1) - old school programming
 - [SVGOMG tool](https://jakearchibald.github.io/svgomg/) for cleaning up SVGs
 
-CodePens:
+**CodePens:**
+
 - [Basic cubic Bezier curve](https://codepen.io/lsburton/pen/mdXarVr?editors=0010)
 - [How cubic Bezier curves are created with de Casteljau's algorithm](https://codepen.io/lsburton/pen/jOZXyaB)
 - [viewBox visualization](https://codepen.io/lsburton/pen/BaZYGKa?editors=0100)
 - [SVG image filters](https://codepen.io/lsburton/pen/RvbNXj?editors=1100)
 - [Color change on hover using SVG filters](https://codepen.io/lsburton/pen/NWwvNPj)
 - [using a webp image in your web page](https://codepen.io/lsburton/pen/XWzrBRY?editors=1000)
+- [Art direction with `<picture>`](https://codepen.io/lsburton/pen/oQywea)
+- [`<picture>` HTML skeleton](https://codepen.io/lsburton/pen/rQEGxE?editors=1100)
+
+**`<picture>` element demos:**
+
+- [image widths displayed](https://github.com/lsburtonBYU/picture-element)
+- [fullscreen images (CSS)](https://github.com/lsburtonBYU/picture-fullscreen)
 ```
 
 ## Rubric

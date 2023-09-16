@@ -15,6 +15,8 @@ Free SVG images / illustrations
 - [Lucasz Adam's Free Illustrations](https://lukaszadam.com/illustrations)
 - [Public Domain Vectors](https://publicdomainvectors.org/en/)
 - [Flaticon](https://www.flaticon.com/)
+
+Bezier curves
 - [Basic cubic Bezier curve](https://codepen.io/lsburton/pen/mdXarVr?editors=0010)
 - [How cubic Bezier curves are created with de Casteljau's algorithm](https://codepen.io/lsburton/pen/jOZXyaB)
 
