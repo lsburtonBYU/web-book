@@ -1,61 +1,27 @@
-# CSS topic presentation learning task
+# CSS fonts and a button assignment
 
 ## Assignment
 
 ```{exercise}
-:label: css-topic-svg-assignment
-**Create a web page that illustrates how to use a CSS feature.**
+:label: fonts-button-assignment
+Learn how to use CSS stylesheets. Add web fonts to your website, create a button class to style links to appear as "web buttons," and adjust whitespace to keep your pages from looking crowded. Style your footer.
 
-- [Sign up for one of the following CSS topics](https://docs.google.com/spreadsheets/d/1tRk_Q40l3GPYnLau3PKWn5ery1MuUOup3e1WEX-NvSo/edit?usp=sharing).
+**Concepts covered**: CSS resets, box-model, CSS variables, pseudo-classes, simple transitions.
 
-- Research the topic at the resources listed below (and other sources, if you find them) and then create a web page with [embedded CodePens](https://blog.codepen.io/documentation/features/embedded-pens/) to illustrate your topic.
+Before beginning this assignment, watch the following videos by Kevin Powell:
+- [Block, Inline, and Inline-Block explained](https://www.youtube.com/watch?v=x_i2gga-sYg&ab_channel=KevinPowell) [14:18 minutes]
+- [Web design tips for developers](https://www.youtube.com/watch?v=ykn4XNDwW7Q) [21:11 minutes] - *I prefer `em` over `ch` for font sizing, but you can use either, although `em` seems to used more than `ch` online*
 
-- Prepare a 5- to 10-minute informal presentation on the topic. Topics will be presented in class.
-
-I created a sample page, [Background clip text](https://burtonbyu.com/css-topic/) to demo the what I'm looking for in this assignment. The focus on this assignment is an oral presentation, but give enough written description on your web page so that students can refer back to your topic as a refresher.
-
-
-Find and read about your topic on each of these websites:
-
-- [W3C Schools Online Web Tutorials](https://www.w3schools.com/)[^w3schools]
-- [MDN Web Docs](https://developer.mozilla.org/en-US/)
-- [CSS Tricks](https://css-tricks.com/)
-
-[^w3schools]: W3Schools is not affiliated with the W3C. It's a good resource for beginners, but it's not always accurate. It's best to use it as a starting point for your research and then verify what you learn on other sites.
+And review CSS Trick's:
+- almanac entry on [transition](https://css-tricks.com/almanac/properties/t/transition/)
+- [Styling Links Like a Boss](https://css-tricks.com/css-basics-styling-links-like-boss/) - **if you prefer to watch a video on this, here's a [video about link pseudo classes](https://youtu.be/H8QO6hXmShI) I made for class during Covid**
 ```
 
-````{tip}
-**CSS to vertically center content on web page**
+```{tip}
+Other helpful resources for the assignment:
 
-For the CSS topic, if you would like to vertically center your page.
 
-If your webpage is set up as:
-```{code-block} html
-<body>
-  <main>
-    <article>
-      .....
-```
 
-To vertically center the `<article>` content, you can add the following to your `<head>` :
-
-```{code-block} css
-<style>
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-article {
-  max-width: 48rem; /* choose whatever width you'd like.
-                      "rem" can be viewed as the width
-                       of a font's M character */
-}
-
-</style>
-```
 ````
 
 ## Rubric
@@ -64,30 +30,33 @@ article {
 
 ```{list-table}
 :header-rows: 1
-:name: css-topic-rubric
+:name: fonts-button-rubric
 :width: 90%
 
 * - Requirement
   - Points
-* - **Clean web page**
+* - **Repo passes all automated tests**
 
-    Web page has a clean design, is easily readable, and pens are embedded correctly.
+    *Validator and a proofer test 2 points each (4 points total)*
 
-  - 10
-* - **Basic information**
 
-    Page includes information about the topic from the required websites
+    See assignment README for a description of the pretests.
+    - The last 7 CSS pretests are 2 points each (14 points total)
+    - The remaining pretests are 1 point each (27 points total)
+  - 45
+* - **General**
+
+    Any issues not covered by the pretests or other rubric entries (see feedback for details if you miss points here)
 
   - 20
-* - **Clear Codepen examples**
+* - **Whitespace**
 
-    Page uses clear and informative Codepen examples to illustrate topic
+    Appropriate use of white space (site is not crowded)
 
   - 10
-* - **Thoughtful presentation**
+* - **GitHub About info**
 
-    Student obviously researched the topic well and thoughtfully created the page and Codepen examples.
-  - 10
+    Include a description and link to your web page in the About section of your repo.
+  - 5
 ```
-
 ````
