@@ -56,6 +56,8 @@ parts:
           - file: parts/css-basics/styling-links
           - file: parts/css-basics/positioning
           - file: parts/css-basics/learning-task-presentation
+          - file: parts/css-basics/learning-task-whitespace-font
+          - file: parts/css-basics/assignment
   - caption: "Part IV - Animation"
     numbered: true
     chapters:
