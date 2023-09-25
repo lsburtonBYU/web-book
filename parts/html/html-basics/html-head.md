@@ -6,7 +6,7 @@ Learn more at
 - [w3schools' HTML <head> Tag](https://www.w3schools.com/tags/tag_meta.asp)
 - [HEAD: A free guide to HTML5 <head> elements](https://htmlhead.dev/)
 
-If interested, you can install the [Open Graph Preview extension](https://chrome.google.com/webstore/detail/open-graph-preview/ehaigphokkgebnmdiicabhjhddkaekgh?hl=en) for the Chrome browser.
+If interested, you can install the [Open Graph Preview extension](https://chrome.google.com/webstore/detail/ograph-previewer/ggcfeakcnodgcmmllfdbmngekljbhiim) for the Chrome browser.
 
 ## Essential \<head\> elements
 
