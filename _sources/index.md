@@ -18,4 +18,5 @@ I'm consolidating my web class info from Learning Suite into a more accessible f
 
 - [Create a simple SVG](parts/html/responsive-images-svg/learning-task-simple-svg)
 - [CSS topic presentation](parts/css-basics/learning-task-presentation)
+- [Web button learning task](parts/css-basics/learning-task-web-button)
 - [Whitespace and font size observations](parts/css-basics/learning-task-whitespace-font)
