@@ -3,7 +3,7 @@
 Sample cards from previous semesters (fork for reference if you are interested in any):
 
 - [Student-submitted cards Fall 2022](https://codepen.io/lsburton/pen/YzLRzMo?editors=0100)
-- [Student submitted cards Winter 2022](https://learningsuite.byu.edu/.se50/cid-4T8VpwzpU9qV/pages/id-fqI7)
+- [Student submitted cards Winter 2022](https://codepen.io/lsburton/pen/WNXEJpv?editors=1100)
 - [Old spice card](https://codepen.io/lsburton/pen/Jjyjmbp) ¯\\\_(ツ)\_/¯
 - [cake card](https://codepen.io/lsburton/pen/dyXoJPZ)
 - [chaco cards](https://codepen.io/lsburton/pen/eYeywZr) \- text appear on hover
