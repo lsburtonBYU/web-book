@@ -19,6 +19,10 @@ Find a card style you particularly like and
 - explain, in one or two sentences why you picked this card
 ```
 
+```{tip}
+[View some examples of cards from previous semesters](positioning.md).
+```
+
 ## Rubric
 
 ```{admonition} Rubric
