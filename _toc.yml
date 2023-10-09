@@ -58,6 +58,7 @@ parts:
           - file: parts/css-basics/learning-task-presentation
           - file: parts/css-basics/learning-task-whitespace-font
           - file: parts/css-basics/learning-task-web-button
+          - file: parts/css-basics/learning-task-card
           - file: parts/css-basics/assignment
   - caption: "Part IV - Animation"
     numbered: true

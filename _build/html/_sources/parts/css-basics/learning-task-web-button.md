@@ -9,7 +9,7 @@ Find a "web button" style you particularly like and post a link to the website t
 
 I will review and pick the best examples to deconstruct in class. You can choose a button style you would like on your website.
 
-An example of a web button (albeit an unstylish one) would be the old log out button in Learning Suite.
+An example of a web button (albeit an unstylish one) would be the old log out button in Learning Suite:
 
 ![Learning Suite log out button](../../images/css-basics/ls-logout.png)
 
