@@ -7,10 +7,19 @@ Add a text overlay to your hero image. Use a dynamic font for the `<h1>` in the 
 ```
 
 ```{tip}
-Other helpful resources for the assignment:
+**Other helpful resources for the assignment**
+- [MDN's position property](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- CSS Tricks' [Absolute, Relative, Fixed Positioning: How Do They Differ?](https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/)
+
+**Info on pseudo-elements `::before` and `::after`**
+- [CSS Tricks](https://css-tricks.com/almanac/selectors/a/after-and-before/)
+- [MDN docs ::before](https://developer.mozilla.org/en-US/docs/Web/CSS/::before)
+- [MDN docs ::after](https://developer.mozilla.org/en-US/docs/Web/CSS/::after)
 
 
-
+**Videos on positioning**
+ - [CSS Positioning: Position absolute and relative explained](https://youtu.be/P6UgYq3J3Qs) (~8 minutes). He is Canadian, so "zed-index" means "z-index" in American English.
+- [Stop fighting with CSS positioning](https://youtu.be/86nTToBm2uQ) - longer video (~20 mins) that goes more in-depth on positioning, containing blocks, and "the flow."
 ````
 
 ## Rubric
