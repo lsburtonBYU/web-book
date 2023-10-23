@@ -68,6 +68,7 @@ parts:
     numbered: true
     chapters:
       - file: parts/css-layouts/index
+      - file: parts/css-layouts/assignment-overlays-cards
   - caption: Appendix
     numbered: 1
     chapters:

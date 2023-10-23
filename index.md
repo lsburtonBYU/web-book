@@ -13,6 +13,7 @@ I'm consolidating my web class info from Learning Suite into a more accessible f
 - [Semantic HTML](parts/html/semantic-html/assignment)
 - [Responsive images and SVG](parts/html/responsive-images-svg/assignment)
 - [CSS fonts and a button](parts/css-basics/assignment)
+- [Overlays and cards](parts/css-layouts/assignment-overlays-cards.md)
 
 ### Learning tasks
 
